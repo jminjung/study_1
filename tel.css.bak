@@ -1,0 +1,39 @@
+body {
+    color: rgb(102, 102, 102);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    font: 12px ±¼¸², Gulim, AppleGothic, sans-serif !important;
+}
+
+#wrap {margin:0 auto; width:1000px; height:800px; 
+		border:1px solid lime;}
+.game {margin:55px 20px 10px 20px; float:left;}
+
+.main {float:left;}
+
+.rongsod {width:210px; height:180px; border:1px solid #E3E5E6;
+	 margin:55px 20px 10px 20px; float:right;}
+.rongsod0 {margin:10px; float:left;}
+.rongsod1 {margin:10px; float:right;}
+.rongsod2 {margin:10px; float:left; border:1px solid #E3E5E6}
+.rongsod3 {margin:10px; float:left; border:1px solid #E3E5E6}
+.rongsod4 {margin:10px; text-align:center;}
+
+
+.check1{width:200px; height:170px; background-color:#D9E8FC; 
+		margin:150px 20px 10px 20px;}
+.check2{}
+
+
+.rogin1 {float:left;}
+.rogin2 {float:left;}
+.rogin3 {margin:5px; float:left;}
+.rogin4 {margin:5px; float:right;}
+
+
+.abata {margin:15px; 20px; float:left;}
+
+.kong1 {margin:0 auto; float:left;}
+.kong2 {margin:0 auto; float:left;}
+.kong3 {margin:0 auto; float:;}

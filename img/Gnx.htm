@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<script language="javaScript" src='http://js.nx.com/s1/global/ngb_head.js' type='text/javascript'></script>
+		<script language="javaScript" src='../../JS/OldLagacyJS/util.js' type='text/javascript'></script>
+		<script language="javaScript" src='../../JS/OldLagacyJS/func.js' type='text/javascript'></script>
+		<script language="javaScript" src='../../JS/Common/Debug.js' type='text/javascript'></script>
+		<script language="javaScript" src='../../JS/Common/evm.js' type='text/javascript'></script>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+		<title>테일즈위버 - 스토리가 살아있는 RPG</title>
+		<meta name="description" content="테일즈위버, 새로운 드라마가 펼쳐진다! CRASH! 업데이트" />
+		<meta property="og:title" content="테일즈위버" />
+		<meta property="og:description" content="테일즈위버, 새로운 드라마가 펼쳐진다! CRASH! 업데이트" />
+		<meta property="og:image" content="http://s.nx.com/s2/game/tales/tw2006/image/event/121127/facebook.jpg" />
+		<span id="AlertMessage"></span>
+		<link rel='STYLESHEET' type='text/css' href='http://js.nx.com/S3/CSS/tw2006/main.css' />	
+		
+		<script language="javaScript" src="../../JS/Common/gnxselectbox.js" type='text/javascript'></script>
+		<script language="javaScript" src='../../JS/Common/GnxFileManager2.js' type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Framework/GnxControlClientProxy.js" type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Common/Util.js" type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Common/GnxBoard.js" type='text/javascript'></script>
+		<script language="javascript" src='http://js.nx.com/s1/common/GnxBanner.js' type='text/javascript'></script>
+		<script language="javascript" src="/js/common/GnxFlashActivate.js" type='text/javascript'></script>
+		<script Language='JavaScript' src='../../JS/Common/GnxHEditor2.js' type='text/javascript'></script>	
+
+		<script type="text/javascript" src="../../JS/Framework/ngb_ControlClientProxy.js"></script>
+		<script type="text/javascript" src="../../js/tales/common/ngb_Editor.js"></script>
+		
+		<script type="text/javascript" src="http://js.nx.com/s1/p2/ps.min.js" charset="utf-8" data-name="PS" data-ngm="true" data-nxlogin="true"></script>
+		
+		<!-- SilverLight -->
+		<script language="javascript" src="../../JS/Silverlight/Silverlight.js" type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Silverlight/NexonPlayer.js" type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Silverlight/NxAjaxUtil.js" type='text/javascript'></script>
+		<script language="javascript" src="../../JS/Silverlight/NxUtil.js" type='text/javascript'></script>		
+		<script type="text/javascript" src="../../js/Tales/jquery/jquery.js"></script>
+        <script type="text/javascript" src="../../js/Tales/jquery/ngw.ui.min.js"></script>
+        
+		<!-- 테일즈 : ST -->
+		<script type="text/javascript" language="javascript" src="../../JS/Tales/Login.js"></script>
+		<script type="text/javascript" language="javascript" src="../../JS/Tales/Global.js"></script>
+		<script type="text/javascript" language="javascript" src="../../JS/Tales/MainDivHandler.js"></script>
+		<!-- OST Control JS : ST -->
+		<script type="text/javascript" language="javascript" src="../../JS/Tales/frmMPlayerControl.js"></script>
+		<!-- OST Control JS : END -->		
+		<!-- 테일즈 : END -->
+		
+		<!-- 에디터 : ST -->
+		<script type="text/javascript" language='JavaScript' src='../../JS/Common/GnxScriptUtility.js'></script>
+		<script type="text/javascript" language='JavaScript' src='../../JS/Editor/GnxEditor_Command.js'></script>
+		<script type="text/javascript" language='JavaScript' src='../../JS/Editor/GnxEditor_ReferDataSet.js'></script>
+		<script type="text/javascript" language='JavaScript' src='../../JS/Editor/GnxEditor_EventHandler.js'></script>
+		<script type="text/javascript" language='JavaScript' src='../../JS/Editor/GnxEditor_StyleDataSet.js'></script>
+		<script type="text/javascript" language='JavaScript' src='../../JS/Editor/GnxEditor.js'></script>		
+		<!-- 에디터 : END -->
+		
+		<!-- 안랩보안 : ST -->
+		<script type="text/javascript" src="http://platform.nx.com/activex/ahnlab/aosmgr_common.js"></script>
+		<script type="text/javascript" src="http://platform.nx.com/activex/ahnlab/ngb_AOS.js"></script>
+		<!-- 안랩보안 : END -->
+		
+		<!-- SysInfo : ST -->
+		<script type="text/javascript" language="javascript" src="../../JS/Tales/GnxSystemInfoHelper.js"></script>	
+		<!-- SysInfo : END -->
+
+		<!-- 파비콘 -->
+		<link rel="Shortcut Icon" href="http://s.nx.com/s2/game/tales/tw2006/image/icon/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="http://s.nx.com/s2/game/tales/tw2006/image/icon/favicon.ico" type="image/x-icon" />
+		<!-- 파비콘 -->
+				
+	</head>
+	<body>
+		
+		<script type="text/javascript" src="http://js.nx.com/s1/global/ngb_bodystart.js"></script>	
+		
+		<script type="text/javascript" src="http://js.nx.com/s1/p2/gnb.min.js" charset="UTF-8" data-name="GNB" data-gamecode="74248" data-width="1000"></script>
+		<form method="post" action="./Gnx.aspx?URL=Home%2fIndex" id="m_form">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwNDQ1ODkyODEPFhgeG0ZyYW1ld29yazo6UmVuZGVyQ29udHJvbFVSTAUKSG9tZS9JbmRleB4Mc3RyU2lnbmF0dXJlZR4ObjFUb2RheUZlZWxpbmcDAB4mRnJhbWV3b3JrOjpWaWV3U3RhdGVDb21wbGV0ZUNvbnRyb2xVUkxlHgxtYXNrR2FtZUNvZGVmHg1zdHJHYW1lU2VydmVyZR4MbjRHYW1lU2VydmVyAwAeHUZyYW1ld29yazo6UG9zdEJhY2tDb250cm9sVVJMBQpIb21lL0luZGV4HglzdHJHYW1lSURlHgtvaWRHYW1lVXNlcmYeCnN0ckxvY2FsSURlHg5zdHJDaGFyYWN0ZXJJRGUWAmYPZBYCZg9kFhACAg9kFgQCAQ8WAh4HVmlzaWJsZWhkAgUPFgIfDGdkAgMPFgIeC18hSXRlbUNvdW50AgFkAgQPFgIfDQIBZAIFDxYCHw0CAWQCBg9kFgICAQ8WAh8NAgQWCAIBD2QWBgIBDxYCHg9zdHJQb3N0QmFja0RhdGEFXzxpbWcgYWx0PSfqs7Xsp4AnIHNyYz0naHR0cDovL3MubnguY29tL3MyL2dhbWUvdGFsZXMvdHcyMDA2L2ltYWdlL2NhdGVnb3J5L25ld3Nfbm90aWNlLmdpZicgIC8+ZAIDDxYCHw4FLzAxLzE0KOuqqSkg7KCV7IudIOyEnOu5hOyKpOyEnOuyhCDsoJDqsoAg7JWI64K0ZAIHDxYCHw4FCjIwMTYuMDEuMTJkAgIPZBYGAgEPFgIfDgVfPGltZyBhbHQ9J+qzteyngCcgc3JjPSdodHRwOi8vcy5ueC5jb20vczIvZ2FtZS90YWxlcy90dzIwMDYvaW1hZ2UvY2F0ZWdvcnkvbmV3c19ub3RpY2UuZ2lmJyAgLz5kAgMPFgIfDgUmMDEvMTQo66qpKSDrhKXsiqgg7KCV6riw7KCQ6rKAIOyViOuCtCBkAgcPFgIfDgUKMjAxNi4wMS4xMmQCAw9kFggCAQ8WAh8OBV88aW1nIGFsdD0n6rO17KeAJyBzcmM9J2h0dHA6Ly9zLm54LmNvbS9zMi9nYW1lL3RhbGVzL3R3MjAwNi9pbWFnZS9jYXRlZ29yeS9uZXdzX25vdGljZS5naWYnICAvPmQCAw8WAh8OBTsxMuyblCAyOOydvCjsm5QpIH4gMDHsm5QgMTDsnbwo7J28KSDsnbTsmqkg7KCc7ZWcIOyVhOydtC4uLmQCBQ8WAh8MaGQCBw8WAh8OBQoyMDE2LjAxLjExZAIED2QWCAIBDxYCHw4FXzxpbWcgYWx0PSfqs7Xsp4AnIHNyYz0naHR0cDovL3MubnguY29tL3MyL2dhbWUvdGFsZXMvdHcyMDA2L2ltYWdlL2NhdGVnb3J5L25ld3Nfbm90aWNlLmdpZicgIC8+ZAIDDxYCHw4FQjAyLzE4KOuqqSkg7Yis66qFIOyVhOuwlO2DgCjrqrgv66i466asKSDslYTsnbTthZwg7YyQ66ekIOykkeuLqC4uLmQCBQ8WAh8MaGQCBw8WAh8OBQoyMDE2LjAxLjExZAIHDxYCHw0CBBYIAgEPZBYCAgMPFgQfDgUDMzg5HgdzdHJUZXh0BSRNRVJSWSBYLU1BUyEg7ZW07ZS87JWE7JuMIOydtOuypO2KuCBkAgIPZBYCAgMPFgQfDgUDMzg4Hw8FPlvsgqzsnbTri6Qg7ZSE66Gc7KCd7Yq4XSDsho3si5zsm5DtlZwg6rCE64u07ZqMISDri7nssqgg7JWI64K0ZAIDD2QWAgIDDxYEHw4FAzM4Nx8PBSNTSE9XIE1FIFRIRSDqsbTsnZgg64u57LKo7J6QIOyViOuCtGQCBA9kFgICAw8WBB8OBQMzODYfDwUhSGFwcHkg7ZWg66Gc7JyIIOy2leygnCDsnbTrsqTtirghZAIIDxYCHw1mZAIJDxYCHw0CAWRku+lrJWqcTcaqrH1GTFTEG0zFYiA=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['m_form'];
+if (!theForm) {
+    theForm = document.m_form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FD1EED55" />
+</div><link rel='STYLESHEET' type='text/css' href='/css/newLayout.css' />
+
+
+<!-- Click Data Check ==> Start -->
+<script type="text/javascript" src="../../js/Tales/jquery/jquery.js"></script>
+<script type="text/javascript" src="../../js/Tales/jquery/ngw.ui.min.js"></script>
+
+<!--[if lte IE 6]>
+<script type="text/javascript" src="../../js/pngFix/jquery.pngFix.pluginpage.js"></script>
+<script type="text/javascript" src="../../js/pngFix/jquery.pngFix.pack.js"></script>
+<![endif]-->
+
+<!-- 20140623 css 추가-->
+
+
+<!-- Click Data Check <== End -->
+<!-- Header : S -->
+
+<script language="javascript">
+	
+	function doFullScreen() { 
+		var max_screen = screen.availWidth;
+		var nor_screen = screen.availHeight;
+		var x = window.open("http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Home/Intro2", "Intro", "toolbar=no,location=no,status=no,menubar=no,scrollbars=auto,resizable=no, width=" + max_screen + ",height=" + nor_screen + ",top=0,left=0"); 
+	}	
+		
+	function getCookie (name) {
+
+		// cookie string
+		var cs = document.cookie;
+		var prefix = name + "=";
+		
+		// cookie's Start Index of the information of it.
+		var cSI = cs.indexOf(prefix);
+		if (cSI == -1) {
+			return null;
+		}
+		
+		// Find cookie's End Index of the information of the cookie.
+		var cEI = cs.indexOf(";", cSI + prefix.length);
+		
+		// If it din't find the CEI, then set it to the end of the cs
+		if (cEI == -1) {
+			cEI = cs.length;
+		}
+		// Decode the value of the cookie's
+		return unescape(cs.substring(cSI + prefix.length, cEI));		
+	}
+
+	
+	//if ( getCookie( "Intro2" ) != "true" )
+		//doFullScreen();
+	function callstop(){
+		
+		parent.bgm.stop();
+	}
+	
+    function callEvent(){
+	//141218이벤트
+		parent.location.href="http://tales.nexon.com/tales2/event/151218/MainHtml.html";
+        //window.location.href = "http://tales.nexon.com/tales2/page/Gnx.aspx?URL=TWWorld/CartoonBoard&maskPageType=2&oidArticle=89";
+		
+	}
+</script>
+<!-- CMS 팝업 영역 : S -->
+
+
+<!-- CMS 팝업 영역 : E -->
+<div id="GlobalMDeco16">
+	<!-- Top ST -->
+	<div id="HeaderTm">
+		<div class="mainGnb">
+			<div class="gnbBg">
+				<div class="gnbArea">
+					<a href="/" class="logo"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/logo.png" alt="테일즈위버"></a>
+					<div class="gnbbox">
+						<ul class="gnbBig">
+							<li class="gnb01">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_01_off.png"
+											alt="새소식"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_01_on.png"
+											alt="새소식"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb01_01.png" alt="공지사항"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/EventBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb01_02.png" alt="이벤트"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Ranking/HonorServer"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb01_03.png" alt="랭킹"></a></li>
+									</ul>
+								</div>
+							<li class="gnb02">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Gameinfo/Introduction"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_02_off.png"
+											alt="게임정보"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_02_on.png"
+											alt="게임정보"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Gameinfo/Introduction"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb02_01.png" alt="테일즈위버 소개"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameInfo/Character/CommonSkill">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb02_02.png" alt="캐릭터 / 스킬"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameInfo/Area/Area_Village_Clad">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb02_03.png" alt="지역정보"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameInfo/Item/Equipment"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb02_04.png" alt="아이템"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameInfo/Monster"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb02_05.png" alt="몬스터"></a></li>
+									</ul>
+								</div>
+							<li class="gnb03">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameGuide/Ready_Install"><span>
+										<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_03_off.png"
+											alt="게임가이드"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_03_on.png"
+											alt="게임가이드"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameGuide/Ready_Install"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb03_01.png" alt="준비하기"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameGuide/Start_Interface">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb03_02.png" alt="시작하기"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=GameGuide/PlayTW_War"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb03_03.png" alt="테일즈위버 즐기기"></a></li>
+									</ul>
+								</div>
+							<li class="gnb04">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/WorldBoard&amp;OS=0">
+									<span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_04_off.png"
+											alt="커뮤니티"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_04_on.png"
+											alt="커뮤니티"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/WorldBoard&amp;OS=0">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_01.png" alt="월드게시판"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/TipNTechBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_02.png" alt="공략게시판"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/TradeBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_03.png" alt="거래게시판"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/ScreenShotBoard">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_04.png" alt="스크린샷게시판"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/GalleryBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_05.png" alt="베스트드레서"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/FanArtBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_06.png" alt="팬아트게시판"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Community/AuthorBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb04_07.png" alt="테일즈작가방"></a></li>
+									</ul>
+								</div>
+							<li class="gnb05">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/IssueBoard"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_05_off.png"
+											alt="TW세상"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_05_on.png"
+											alt="TW세상"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/IssueBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_01.png" alt="TW핫이슈"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/PocketBookBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_02.png" alt="TW매거진"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/CartoonBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_03.png" alt="TW만화"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/DevNoteBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_04.png" alt="TW개발노트"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/LittleLanipleBoard">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_05.png" alt="TW리틀레니플"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=TWWorld/FanSiteBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb05_06.png" alt="TW팬사이트"></a></li>
+									</ul>
+								</div>
+							<li class="gnb06">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Pds/Download_Client"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_06_off.png"
+											alt="자료실"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_06_on.png"
+											alt="자료실"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Pds/Download_Client"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb06_01.png" alt="다운로드박스"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Pds/MediaOST"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb06_02.png" alt="미디어박스"></a>
+										<li class="last">
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Pds/Gallery_Character"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb06_03.png" alt="갤러리박스"></a></li>
+									</ul>
+								</div>
+							<li class="gnb07">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Customer/CharacterInfo"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_07_off.png"
+											alt="고객지원"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_07_on.png"
+											alt="고객지원"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Customer/CharacterInfo"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb07_01.png" alt="마이페이지"></a>
+										<li>
+											<a href="#" onclick="window.open('http://cs.nexon.com/HelpBoard/Nexon?gamecode=15&ismobile=0','', 'toolbar=no, scrollbars=yes, width=1024, height=625'); return false;">
+<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb07_02.png" alt="FAQ"></a>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Customer/BugBoardIndex"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb07_03.png" alt="버그리포팅"></a>
+										<li class="last">
+											<a href="#" onclick="window.open('http://tales.nexon.com/tales2/Footer/operation_rule_talesweaver.html', '', 'width=620px, height=670px'); return false;">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb07_04.png" alt="운영정책"></a></li>
+									</ul>
+								</div>
+							<li class="gnb08 last">
+								<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Shop/NewsBoard"><span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_08_off.png"
+											alt="롱소드샵"></span> <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb_08_on.png"
+											alt="롱소드샵"></span> </a>
+								<div>
+									<ul>
+										<li>
+											<a href="http://tales.nexon.com/tales2/page/Gnx.aspx?Url=Shop/NewsBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb08_01.png" alt="롱소드 소식"></a>
+										<!--li class="last">
+											<a href="#" onclick=" alert('로그인 하셔야 이용 가능합니다.'); return false;  ">
+												<img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_gnb08_02.png" alt="웹캐시샵"></a></li-->
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<a href="#" class="sub_infoView" onclick="callEvent();">
+                        <span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_on_1217.png" alt="자세히 보기"></span>
+                        <span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/btn_off_1217.png"	alt="자세히 보기"></span> 
+                    </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Head & Flash Navigation Section END -->
+</div>
+<!-- Top END -->
+<script type="text/javascript">
+	//<![CDATA[
+		$(document).ready( function () {
+			$('.gnbBig > li').hover( function () {
+				$(this).addClass('curr');
+			}, function () {
+				$(this).removeClass('curr');
+			});
+		});
+	//]]>
+</script>
+
+
+<script type="text/javascript">
+<!--  
+	function CallBack_G_GameStartScriptWriter_SetWiseLog(){}
+	function GnxGameStartOnClick( argument ) 
+	{
+		alert( '로그인을 해주세요.' ); 
+	} 
+//-->
+</script>
+<!-- Header : E -->
+<!-- Wrapper ST -->
+<!-- 20140722 -->
+<div id="Wrapper" class="main">
+<!-- //20140722 -->
+	<!-- Middle Section ST -->
+	<div id="Middle">
+		<!-- Left Section (Login Area, Flash Menu, Left Flash Ani.) ST -->
+		<div id="LeftSec">
+			<!-- Login Section ST -->
+			
+
+<!-- Header : E -->
+<div style="DISPLAY:none"><iframe title="로그" id="ifrForLog" width="0" height="0"></iframe>
+</div>
+
+<div id="gameStart">
+	<a class="game_start" onclick="GnxGameStartOnClick();return false;" href="#">
+		<span><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/Btn_start_off.gif" alt=""/></span>
+		<span class="on"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/Btn_start.gif" alt=""/></span>
+	</a>
+</div>
+				
+<!-- 로그인 상태 ST -->
+
+<!-- 로그인 상태 END -->
+<!-- 대표 케릭터 설정이 안된 상태 ST -->
+
+<!-- 대표 케릭터 설정이 안된 상태 END -->
+<!-- 로그아웃 상태 ST -->
+<input type='hidden' name='G$LoginBox$gnxLoginContainer' id='G_LoginBox_gnxLoginContainer' value=''><script>
+				function GnxNxcomLoginContainerClientProxy_DoPostBack()
+				{
+					if ( this.CheckValidation() )
+					{
+						NgbLogin.Login( NgbString.Trim( document.getElementById('G_LoginBox_gnxLoginContainer_txtLocalID').value ), NgbString.Trim( document.getElementById('G_LoginBox_gnxLoginContainer_txtPasswd').value ) );
+
+					}
+				}
+				</script><script>var G_LoginBox_gnxLoginContainer = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer', 'G$LoginBox$gnxLoginContainer' );</script><script>window.G_LoginBox_gnxLoginContainer.DoPostBack = GnxNxcomLoginContainerClientProxy_DoPostBack;</script><script>function G_LoginBox_gnxLoginContainer_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_CheckValidation() { if ( !window.G_LoginBox_gnxLoginContainer_txtLocalID.CheckValidation() ) return false; if ( !window.G_LoginBox_gnxLoginContainer_txtPasswd.CheckValidation() ) return false; if ( !window.G_LoginBox_gnxLoginContainer_btnLogin.CheckValidation() ) return false; if ( !window.G_LoginBox_gnxLoginContainer_btnFindID.CheckValidation() ) return false; if ( !window.G_LoginBox_gnxLoginContainer_btnFindPassword.CheckValidation() ) return false; if ( !window.G_LoginBox_gnxLoginContainer_btnRegister.CheckValidation() ) return false;  return true; }</script><script> function G_LoginBox_gnxLoginContainer_PostBack_WiseLogCreator() {  } </script><script>
+				function GnxNxcomLoginContainerClientProxy_SetFocus()
+				{ 
+				 document.getElementById('G_LoginBox_gnxLoginContainer_txtPasswd').focus(); 
+				} 
+
+				EVM.addCommand( EVM.k_nEventType_onLoad, EVM.k_nPriority_normal, new EVMDelegator( GnxNxcomLoginContainerClientProxy_SetFocus ) );
+				</script>
+		<div id="LogSec">
+			<div id="LogAccountSec">
+				<div id="LogSecuritySec">
+					<span class="LogSecurityKey"><label>키보드보안 <input id="NxCheckKeyDefense" onclick="return NgbAOS.SetUpKeyDefense( true );" type="checkbox" value="" name="NxCheckKeyDefense" title="키보드보안" /></label></span>
+					<span class="LogSecurityFWall"><label>개인방화벽 <input id="NxCheckFireWall" onclick="return NgbAOS.SetUpFireWall( true );" type="checkbox" value="" name="NxCheckFireWall" title="개인방화벽" /></label></span>
+				</div>
+				<div id="LogAccount">
+						
+					<div id="LoginId">
+						<input type='text' value='' name='G$LoginBox$gnxLoginContainer$txtLocalID' id='G_LoginBox_gnxLoginContainer_txtLocalID' onkeypress='if ( event.keyCode==13 ) {window.G_LoginBox_gnxLoginContainer_txtLocalID.DoPostBack(this.value); return false; }' title='아이디 또는 이메일 입력' class='LoginId' maxlength='50' onfocus='this.className="LoginIdOver"'/><script>var G_LoginBox_gnxLoginContainer_txtLocalID = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$txtLocalID', 'G$LoginBox$gnxLoginContainer' );</script><script>function G_LoginBox_gnxLoginContainer_txtLocalID_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_txtLocalID_CheckValidation() { 
+				var strText = document.getElementById('G_LoginBox_gnxLoginContainer_txtLocalID').value;	
+			if ( document.getElementById('G_LoginBox_gnxLoginContainer_txtLocalID').value == '' ) { alert( '아이디 또는 이메일을 입력하세요.' ); return false; } return true; }</script><script> function G_LoginBox_gnxLoginContainer_txtLocalID_PostBack_WiseLogCreator() {  } </script>
+					</div>
+					<div id="LoginPass">
+						<input type='hidden' value='' name='G$LoginBox$gnxLoginContainer$txtPasswd' id='G_LoginBox_gnxLoginContainer_txtPasswd'/><input type='password' value='' name='G$LoginBox$gnxLoginContainer$txtPasswd_pass' id='G_LoginBox_gnxLoginContainer_txtPasswd_pass' onkeypress='if ( event.keyCode==13 ) { document.body.focus();window.G_LoginBox_gnxLoginContainer_txtPasswd.PasswordDecryption(); window.G_LoginBox_gnxLoginContainer_txtPasswd.DoPostBack(this.value); return false; }' onfocusout='window.G_LoginBox_gnxLoginContainer_txtPasswd.PasswordDecryption();' title='비밀번호 입력' class='LoginPass' onfocus='this.className="LoginPassOver"'/><script>var G_LoginBox_gnxLoginContainer_txtPasswd = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$txtPasswd', 'G$LoginBox$gnxLoginContainer' );</script><script>function G_LoginBox_gnxLoginContainer_txtPasswd_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_txtPasswd_CheckValidation() { 
+				var strText = document.getElementById('G_LoginBox_gnxLoginContainer_txtPasswd').value;	
+			G_LoginBox_gnxLoginContainer_txtPasswd.PasswordDecryption();if ( document.getElementById('G_LoginBox_gnxLoginContainer_txtPasswd').value == '' ) { alert( '비밀번호를 입력하세요.' ); return false; } return true; }</script><script> function G_LoginBox_gnxLoginContainer_txtPasswd_PostBack_WiseLogCreator() {  } </script>
+					</div>
+					<span class="LoginBt">
+							<input type='hidden' name='G$LoginBox$gnxLoginContainer$btnLogin' id='G_LoginBox_gnxLoginContainer_btnLogin' value=''><script>var G_LoginBox_gnxLoginContainer_btnLogin = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$btnLogin', 'G$LoginBox$gnxLoginContainer' );</script><script>function G_LoginBox_gnxLoginContainer_btnLogin_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_btnLogin_CheckValidation() {  return true; }</script><script> function G_LoginBox_gnxLoginContainer_btnLogin_PostBack_WiseLogCreator() {  } </script><a id='G_LoginBox_gnxLoginContainer_btnLogin_link' name='G$LoginBox$gnxLoginContainer$btnLogin_link' href='#' onclick='window.G_LoginBox_gnxLoginContainer_btnLogin.DoPostBack( "" ); return false;'>로그인</a>
+						</span>
+				</div>
+				<div id="LogManageSec">
+					<span class="LogManageSchId"><input type='hidden' name='G$LoginBox$gnxLoginContainer$btnFindID' id='G_LoginBox_gnxLoginContainer_btnFindID' value=''><script>
+			function GnxNxcomFindIDButton_DoPostBack()
+			{
+				NgbMember.SearchNexonID( 142 );
+			}
+			</script><script>var G_LoginBox_gnxLoginContainer_btnFindID = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$btnFindID', 'G$LoginBox$gnxLoginContainer' );</script><script>window.G_LoginBox_gnxLoginContainer_btnFindID.DoPostBack = GnxNxcomFindIDButton_DoPostBack;</script><script>function G_LoginBox_gnxLoginContainer_btnFindID_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_btnFindID_CheckValidation() {  return true; }</script><script> function G_LoginBox_gnxLoginContainer_btnFindID_PostBack_WiseLogCreator() {  } </script><a id='G_LoginBox_gnxLoginContainer_btnFindID_link' name='G$LoginBox$gnxLoginContainer$btnFindID_link' href='#' onclick='window.G_LoginBox_gnxLoginContainer_btnFindID.DoPostBack( "" ); return false;'><img src='http://s.nx.com/s2/game/tales/tw2006/image/global/renew/bt_find_id.gif' ID='G_LoginBox_gnxLoginContainer_btnFindID_image' alt='아이디찾기'/></a></span>
+					<span class="LogManageSchPass"><input type='hidden' name='G$LoginBox$gnxLoginContainer$btnFindPassword' id='G_LoginBox_gnxLoginContainer_btnFindPassword' value=''><script>
+			function GnxNxcomFindPasswordButton_DoPostBack()
+			{
+				NgbMember.SearchPassword( 142 );
+			}
+			</script><script>var G_LoginBox_gnxLoginContainer_btnFindPassword = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$btnFindPassword', 'G$LoginBox$gnxLoginContainer' );</script><script>window.G_LoginBox_gnxLoginContainer_btnFindPassword.DoPostBack = GnxNxcomFindPasswordButton_DoPostBack;</script><script>function G_LoginBox_gnxLoginContainer_btnFindPassword_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_btnFindPassword_CheckValidation() {  return true; }</script><script> function G_LoginBox_gnxLoginContainer_btnFindPassword_PostBack_WiseLogCreator() {  } </script><a id='G_LoginBox_gnxLoginContainer_btnFindPassword_link' name='G$LoginBox$gnxLoginContainer$btnFindPassword_link' href='#' onclick='window.G_LoginBox_gnxLoginContainer_btnFindPassword.DoPostBack( "" ); return false;'><img src='http://s.nx.com/s2/game/tales/tw2006/image/global/renew/bt_find_pw.gif' ID='G_LoginBox_gnxLoginContainer_btnFindPassword_image' alt='비밀번호 찾기'/></a></span>
+					<span class="LogManageMemberJoin"><input type='hidden' name='G$LoginBox$gnxLoginContainer$btnRegister' id='G_LoginBox_gnxLoginContainer_btnRegister' value=''><script>
+			function GnxNxcomRegisterButton_DoPostBack()
+			{
+				NgbMember.GoRegisterPage( 142 );
+			}
+			</script><script>var G_LoginBox_gnxLoginContainer_btnRegister = new GnxControlClientProxy( 'G$LoginBox$gnxLoginContainer$btnRegister', 'G$LoginBox$gnxLoginContainer' );</script><script>window.G_LoginBox_gnxLoginContainer_btnRegister.DoPostBack = GnxNxcomRegisterButton_DoPostBack;</script><script>function G_LoginBox_gnxLoginContainer_btnRegister_PrePostBack() {  }</script><script>function G_LoginBox_gnxLoginContainer_btnRegister_CheckValidation() {  return true; }</script><script> function G_LoginBox_gnxLoginContainer_btnRegister_PostBack_WiseLogCreator() {  } </script><a id='G_LoginBox_gnxLoginContainer_btnRegister_link' name='G$LoginBox$gnxLoginContainer$btnRegister_link' href='#' onclick='window.G_LoginBox_gnxLoginContainer_btnRegister.DoPostBack( "" ); return false;'><img src='http://s.nx.com/s2/game/tales/tw2006/image/global/renew/bt_join.gif' ID='G_LoginBox_gnxLoginContainer_btnRegister_image' alt='회원가입'/></a></span>
+					<span class="LogManageMemberOTP"><a href="http://security.nexon.com/otp/index.aspx" target="_blank"><img src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/bt_otp.gif" alt="U-OTP 보안접속" /></a></span>
+				</div>
+			</div>
+		</div>
+	
+<!-- 로그아웃 상태 END -->
+			<!-- Login Section END -->			
+			<p><iframe title="광고영역" src="../ad/ad.html" frameborder="0" scrolling="no" width="200" height="170"></iframe></p>
+		</div>
+		<!-- Left Section (Login Area, Flash Menu, Left Flash Ani.) END -->
+		<!-- Center section (Title area, Location, Contents) ST -->
+		<div id="CntsSec">
+			<div id="CntsTopSec">
+				<div id="KeyViewSec">
+					<div id="mainBanner">
+						<h2 class="hidden">배너</h2>
+						
+								<div><input type='hidden' name='G$rptCMSBanner_main$ctl00$btnCMSBanner_main' id='G_rptCMSBanner_main_btnCMSBanner_main_0' value=''><script>var G_rptCMSBanner_main_btnCMSBanner_main_0 = new GnxControlClientProxy( 'G$rptCMSBanner_main$ctl00$btnCMSBanner_main', 'G$rptCMSBanner_main$ctl00$btnCMSBanner_main' );</script><script>function G_rptCMSBanner_main_btnCMSBanner_main_0_PrePostBack() {  }</script><script>function G_rptCMSBanner_main_btnCMSBanner_main_0_CheckValidation() {  return true; }</script><script> function G_rptCMSBanner_main_btnCMSBanner_main_0_PostBack_WiseLogCreator() {  } </script><a id='G_rptCMSBanner_main_btnCMSBanner_main_0' target='_self' name='G$rptCMSBanner_main$ctl00$btnCMSBanner_main' href='http://tales.nexon.com/board/889192451/111351/'><img id='CMSBANNER:G_rptCMSBanner_main_btnCMSBanner_main_0' name='CMSBANNER:G$rptCMSBanner_main$ctl00$btnCMSBanner_main' alt=''http://s.nx.com/S2/game/tales/TW2006/image/banner/mban_151231_001.png src='http://s.nx.com/S2/game/tales/TW2006/image/banner/mban_151231_001.png'></a></div>
+													
+					</div>
+					<script type="text/javascript">
+					//<![CDATA[
+						$("#mainBanner").ngwBanner({
+							width:500, height:380,
+							animation:"show",
+							speed:1000, delay:5000, max:20,
+							bannerNav:({
+								use:true, left:0, top:162,
+								navOnURL:"http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_banner_on.gif",
+								navOffURL:"http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_banner_off.gif"
+							})
+						});
+					//]]>
+					</script>
+				</div>
+				<!--[if lte IE 6]><script type="text/javascript">$('#KeyViewSec').pngFix( );</script><![endif]-->				
+
+				<!-- LongSword Shop Sec ST -->
+				<div id="MainLongShopSec">
+					<h2><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/tit_shop.gif" alt="롱소드샵" /></h2>
+					<div id="MainLongShop">
+						<ul id="MainLongShopCnts">
+							<li>
+								
+										<div class="ShopImgSec">
+											<input type='hidden' name='G$rptCMSBanner7$ctl00$btnCMSBanner7' id='G_rptCMSBanner7_btnCMSBanner7_0' value=''><script>var G_rptCMSBanner7_btnCMSBanner7_0 = new GnxControlClientProxy( 'G$rptCMSBanner7$ctl00$btnCMSBanner7', 'G$rptCMSBanner7$ctl00$btnCMSBanner7' );</script><script>function G_rptCMSBanner7_btnCMSBanner7_0_PrePostBack() {  }</script><script>function G_rptCMSBanner7_btnCMSBanner7_0_CheckValidation() {  return true; }</script><script> function G_rptCMSBanner7_btnCMSBanner7_0_PostBack_WiseLogCreator() {  } </script><a id='G_rptCMSBanner7_btnCMSBanner7_0' target='_self' name='G$rptCMSBanner7$ctl00$btnCMSBanner7' href='http://tales.nexon.com/board/2113929219/318/'><img id='CMSBANNER:G_rptCMSBanner7_btnCMSBanner7_0' name='CMSBANNER:G$rptCMSBanner7$ctl00$btnCMSBanner7' alt='앤의화분'http://s.nx.com/S2/Game/Tales/TW2006/image/itemupdate/110609image/item.gif src='http://s.nx.com/S2/Game/Tales/TW2006/image/itemupdate/110609image/item.gif'></a>
+										</div>
+										<div class="ShopTxt">
+											앤의화분 
+										</div>
+										<div class="ShopCash"><img src="http://s.nx.com/s2/game/tales/tw2006/image/icon/icon_index_cash.gif" width="10" height="10" alt="" />
+											1400
+										</div>
+									
+							</li>
+							<li>
+								
+										<div class="ShopImgSec">
+											<input type='hidden' name='G$rptCMSBanner8$ctl00$Gnxbannerbutton1' id='G_rptCMSBanner8_Gnxbannerbutton1_0' value=''><script>var G_rptCMSBanner8_Gnxbannerbutton1_0 = new GnxControlClientProxy( 'G$rptCMSBanner8$ctl00$Gnxbannerbutton1', 'G$rptCMSBanner8$ctl00$Gnxbannerbutton1' );</script><script>function G_rptCMSBanner8_Gnxbannerbutton1_0_PrePostBack() {  }</script><script>function G_rptCMSBanner8_Gnxbannerbutton1_0_CheckValidation() {  return true; }</script><script> function G_rptCMSBanner8_Gnxbannerbutton1_0_PostBack_WiseLogCreator() {  } </script><a id='G_rptCMSBanner8_Gnxbannerbutton1_0' target='_self' name='G$rptCMSBanner8$ctl00$Gnxbannerbutton1' href='http://tales.nexon.com/board/2113929219/323/'><img id='CMSBANNER:G_rptCMSBanner8_Gnxbannerbutton1_0' name='CMSBANNER:G$rptCMSBanner8$ctl00$Gnxbannerbutton1' alt='TW패키지'http://s.nx.com/S2/Game/Shop/Shop/image/webshop/tales/279878B5364A45518496489B3E5C97D2.gif  src='http://s.nx.com/S2/Game/Shop/Shop/image/webshop/tales/279878B5364A45518496489B3E5C97D2.gif '></a>
+										</div>
+										<div class="ShopTxt">
+											TW패키지
+										</div>
+										<div class="ShopCash"><img src="http://s.nx.com/s2/game/tales/tw2006/image/icon/icon_index_cash.gif" width="10" height="10"
+												alt="" />
+											700
+										</div>
+									
+							</li>
+						</ul>
+					</div>
+					<div class="more"><a href="Gnx.aspx?Url=Shop/NewsBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_more.gif" alt="롱소드샵 더보기"></a></div>
+					<div class="btShop">
+						<!--a href="#" onclick=" alert('로그인 하셔야 이용 가능합니다.'); return false;  "><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_shop1.gif" alt="롱소드샵 바로가기"></a-->
+						<a href="Gnx.aspx?URL=Shop/NewsBoard"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_shop3.gif" alt="롱소드 소식 보기"></a>
+					</div>
+				</div>
+				<!-- LongSword Shop Sec END -->
+		
+			</div>
+			<div id="CntsMiddleSec">
+				<!-- Community Sec ST -->
+				<div id="MainCommunitySec">
+					<div id="MainCommunity">
+						<!--h2 id="newsH1" class="heading"><a href="#news1"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/tab_bbs1_off.gif" alt="전체"></a></h2>
+						<div id="news1" class="tabCon">
+							<ul>
+								<li><a href="#none">테일즈위버1월 20일 업데이트 안내!</a> <img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_new.gif" alt="new"></li>
+								<li><a href="#none">테일즈위버1월 20일 업데이트</a> <span>2012.01.06</span></li>
+								<li><a href="#none">테일즈위버1월 20일 업데이트 안내!</a> <span>2012.01.06</span></li>
+								<li><a href="#none">테일즈위버1월 20일 업데이트 안내!</a> <span>2012.01.06</span></li>
+							</ul>
+						</div -->
+						<h2 id="newsH1" class="heading"><a href="#news1"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/tab_bbs1_off.gif" alt="공지사항"></a></h2>
+						<div id="news1" class="tabCon">
+							
+<!-------------------------------------------------------------------- LIST  START -------------------------------------------------------------------->
+		
+				<ul>
+			
+			
+				<li>
+					<img alt='공지' src='http://s.nx.com/s2/game/tales/tw2006/image/category/news_notice.gif'  />				
+					<a href='http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard&n1PageType=2&n4NoticeArticleSN=111569' ID='G_List_m_NoticeList_NoticeTitleLinker_0_a'>01/14(목) 정식 서비스서버 점검 안내</a>
+					<img src='http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_new.gif' alt='신규 게시글' ID='G_List_m_NoticeList_NoticeNewIconViewer_0_img'/>
+					<span>2016.01.12</span>
+				</li>
+				
+			
+			
+				<li>
+					<img alt='공지' src='http://s.nx.com/s2/game/tales/tw2006/image/category/news_notice.gif'  />				
+					<a href='http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard&n1PageType=2&n4NoticeArticleSN=111566' ID='G_List_m_NoticeList_NoticeTitleLinker_1_a'>01/14(목) 넥슨 정기점검 안내 </a>
+					<img src='http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_new.gif' alt='신규 게시글' ID='G_List_m_NoticeList_NoticeNewIconViewer_1_img'/>
+					<span>2016.01.12</span>
+				</li>
+				
+			
+			
+				<li>
+					<img alt='공지' src='http://s.nx.com/s2/game/tales/tw2006/image/category/news_notice.gif'  />				
+					<a href='http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard&n1PageType=2&n4NoticeArticleSN=111550' ID='G_List_m_NoticeList_NoticeTitleLinker_2_a'>12월 28일(월) ~ 01월 10일(일) 이용 제한 아이...</a>
+					
+					<span>2016.01.11</span>
+				</li>
+				
+			
+			
+				<li>
+					<img alt='공지' src='http://s.nx.com/s2/game/tales/tw2006/image/category/news_notice.gif'  />				
+					<a href='http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/NoticeBoard&n1PageType=2&n4NoticeArticleSN=111549' ID='G_List_m_NoticeList_NoticeTitleLinker_3_a'>02/18(목) 투명 아바타(몸/머리) 아이템 판매 중단...</a>
+					
+					<span>2016.01.11</span>
+				</li>
+				
+			
+				</ul>
+				
+	
+<!-------------------------------------------------------------------- LIST Section : END -------------------------------------------------------------------->
+						</div>
+						<h2 id="newsH2" class="heading"><a href="#news2"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/tab_bbs2_off.gif" alt="이벤트"></a></h2>
+						<div id="news2" class="tabCon">
+												
+							<ul>
+							
+								<li>
+									<img src='http://s.nx.com/s2/game/tales/tw2006/image/icon/bul_event_off.gif' alt='종료'/>								
+									<input type='hidden' name='G$rptEventArticle$ctl01$btnEventArticlTitle_l' id='G_rptEventArticle_btnEventArticlTitle_l_0' value='389'><script>var G_rptEventArticle_btnEventArticlTitle_l_0 = new GnxControlClientProxy( 'G$rptEventArticle$ctl01$btnEventArticlTitle_l', 'G$rptEventArticle$ctl01$btnEventArticlTitle_l' );</script><script>function G_rptEventArticle_btnEventArticlTitle_l_0_PrePostBack() {  }</script><script>function G_rptEventArticle_btnEventArticlTitle_l_0_CheckValidation() {  return true; }</script><script> function G_rptEventArticle_btnEventArticlTitle_l_0_PostBack_WiseLogCreator() {  } </script><a id='G_rptEventArticle_btnEventArticlTitle_l_0_link' name='G$rptEventArticle$ctl01$btnEventArticlTitle_l_link' href='Gnx.aspx?Url=News/EventBoard&oidArticle=389&maskPageType=2'>MERRY X-MAS! 해피아워 이벤트 </a> 
+									
+									<span>2015.12.23</span>	
+								</li>
+							
+								<li>
+									<img src='http://s.nx.com/s2/game/tales/tw2006/image/category/event_winner.gif' alt='당첨자확인'/>								
+									<input type='hidden' name='G$rptEventArticle$ctl02$btnEventArticlTitle_l' id='G_rptEventArticle_btnEventArticlTitle_l_1' value='388'><script>var G_rptEventArticle_btnEventArticlTitle_l_1 = new GnxControlClientProxy( 'G$rptEventArticle$ctl02$btnEventArticlTitle_l', 'G$rptEventArticle$ctl02$btnEventArticlTitle_l' );</script><script>function G_rptEventArticle_btnEventArticlTitle_l_1_PrePostBack() {  }</script><script>function G_rptEventArticle_btnEventArticlTitle_l_1_CheckValidation() {  return true; }</script><script> function G_rptEventArticle_btnEventArticlTitle_l_1_PostBack_WiseLogCreator() {  } </script><a id='G_rptEventArticle_btnEventArticlTitle_l_1_link' name='G$rptEventArticle$ctl02$btnEventArticlTitle_l_link' href='Gnx.aspx?Url=News/EventBoard&oidArticle=388&maskPageType=2'>[사이다 프로젝트] 속시원한 간담회! 당첨 안내</a> 
+									
+									<span>2015.10.30</span>	
+								</li>
+							
+								<li>
+									<img src='http://s.nx.com/s2/game/tales/tw2006/image/category/event_winner.gif' alt='당첨자확인'/>								
+									<input type='hidden' name='G$rptEventArticle$ctl03$btnEventArticlTitle_l' id='G_rptEventArticle_btnEventArticlTitle_l_2' value='387'><script>var G_rptEventArticle_btnEventArticlTitle_l_2 = new GnxControlClientProxy( 'G$rptEventArticle$ctl03$btnEventArticlTitle_l', 'G$rptEventArticle$ctl03$btnEventArticlTitle_l' );</script><script>function G_rptEventArticle_btnEventArticlTitle_l_2_PrePostBack() {  }</script><script>function G_rptEventArticle_btnEventArticlTitle_l_2_CheckValidation() {  return true; }</script><script> function G_rptEventArticle_btnEventArticlTitle_l_2_PostBack_WiseLogCreator() {  } </script><a id='G_rptEventArticle_btnEventArticlTitle_l_2_link' name='G$rptEventArticle$ctl03$btnEventArticlTitle_l_link' href='Gnx.aspx?Url=News/EventBoard&oidArticle=387&maskPageType=2'>SHOW ME THE 건의 당첨자 안내</a> 
+									
+									<span>2015.10.23</span>	
+								</li>
+							
+								<li>
+									<img src='http://s.nx.com/s2/game/tales/tw2006/image/icon/bul_event_off.gif' alt='종료'/>								
+									<input type='hidden' name='G$rptEventArticle$ctl04$btnEventArticlTitle_l' id='G_rptEventArticle_btnEventArticlTitle_l_3' value='386'><script>var G_rptEventArticle_btnEventArticlTitle_l_3 = new GnxControlClientProxy( 'G$rptEventArticle$ctl04$btnEventArticlTitle_l', 'G$rptEventArticle$ctl04$btnEventArticlTitle_l' );</script><script>function G_rptEventArticle_btnEventArticlTitle_l_3_PrePostBack() {  }</script><script>function G_rptEventArticle_btnEventArticlTitle_l_3_CheckValidation() {  return true; }</script><script> function G_rptEventArticle_btnEventArticlTitle_l_3_PostBack_WiseLogCreator() {  } </script><a id='G_rptEventArticle_btnEventArticlTitle_l_3_link' name='G$rptEventArticle$ctl04$btnEventArticlTitle_l_link' href='Gnx.aspx?Url=News/EventBoard&oidArticle=386&maskPageType=2'>Happy 할로윈 축제 이벤트!</a> 
+									
+									<span>2015.10.22</span>	
+								</li>
+								
+							</ul>
+								
+						</div>
+						<script type="text/javascript">
+						<!--
+							$('#MainCommunity').ngwTabCon();
+						//-->
+						</script>
+		
+					</div>
+
+					<div id="mainEvtSec">
+					
+						<ul>					
+						
+							<li>
+								<dl>
+									<dt><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_event.gif" alt="event" /> <a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/EventBoard">테일즈위버에서만 <br />누릴수있는 새로운 이벤트!</a></dt>
+									<dd class="thumb"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/thumb_event2.jpg" alt="" /></dd>
+								</dl>
+							</li>
+							
+							<li>
+								<dl>
+									<dt><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/ico_event.gif" alt="event" /> <a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=News/EventBoard">테일즈위버에서만 <br />누릴수있는 새로운 이벤트!</a></dt>
+									<dd class="thumb"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/thumb_event2.jpg" alt="" /></dd>
+								</dl>
+							</li>						
+						
+						</ul>					
+							
+					</div>
+				</div>
+				<!-- Community Sec END -->
+		
+				<div id="rBanSec">
+					<div id="rEvtBan">
+					
+						
+								<input type='hidden' name='G$rptCMSBanner_mainright$ctl00$btnCMSBanner_mainright' id='G_rptCMSBanner_mainright_btnCMSBanner_mainright_0' value=''><script>var G_rptCMSBanner_mainright_btnCMSBanner_mainright_0 = new GnxControlClientProxy( 'G$rptCMSBanner_mainright$ctl00$btnCMSBanner_mainright', 'G$rptCMSBanner_mainright$ctl00$btnCMSBanner_mainright' );</script><script>function G_rptCMSBanner_mainright_btnCMSBanner_mainright_0_PrePostBack() {  }</script><script>function G_rptCMSBanner_mainright_btnCMSBanner_mainright_0_CheckValidation() {  return true; }</script><script> function G_rptCMSBanner_mainright_btnCMSBanner_mainright_0_PostBack_WiseLogCreator() {  } </script><a id='G_rptCMSBanner_mainright_btnCMSBanner_mainright_0' target='_self' name='G$rptCMSBanner_mainright$ctl00$btnCMSBanner_mainright' href='http://tales.nexon.com/tales2/page/gnx.aspx?url=event/151022/Main'><img id='CMSBANNER:G_rptCMSBanner_mainright_btnCMSBanner_mainright_0' name='CMSBANNER:G$rptCMSBanner_mainright$ctl00$btnCMSBanner_mainright' alt=''http://s.nx.com/S2/game/tales/TW2006/image/banner/rban_151022_004.jpg src='http://s.nx.com/S2/game/tales/TW2006/image/banner/rban_151022_004.jpg'></a>
+															
+					</div>
+					<!-- 20140623 -->
+					<div id="quickLink">
+						<ul>
+							<li><a href="http://cafe.daum.net/MagicWeaver?t__nil_cafemy=item" target="_blank"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_daumFansite.gif" alt="다음 팬사이트 바로가기"></a></li>
+							<li><a href="http://cafe.naver.com/twdestiny.cafe" target="_blank"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_naverFansite.gif" alt="네이버 팬 사이트 바로가기"></a></li>
+							<li class="faq"><a href="#" onclick="window.open('http://cs.nexon.com/HelpBoard/Nexon?gamecode=15&ismobile=0','', 'toolbar=no, scrollbars=yes, width=1024, height=625'); return false;">
+<img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_faq.gif" alt="FAQ 무엇이든 물어보세요!"></a></li>
+							<li class="bug"><a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Customer/BugBoardIndex"><img src="http://s.nx.com/s2/game/tales/tw2006/image/home/renew/bt_bug.gif" alt="버그리포트 버그가 나타났어요!"></a></li>
+						</ul>
+					</div>
+					<!-- //20140623 -->
+				</div>
+			</div>
+		</div>
+		<!-- Center section (Title area, Location, Contents) END -->
+	</div>
+	<!-- Footer Section ST -->
+	
+<style type="text/css">
+#FooterSec {clear:both;margin:0 auto;width:980px;position:relative;border-top:1px solid #e2e2e2;}
+	
+#FooterLogo {left:26px;top:25px;}
+#FooterLogo img	{vertical-align:top;}
+#FooterLogo .nexon	{margin-right:15px;}
+
+
+	
+	#FooterNaviSec, 
+	#FooterNaviSec1 {position:absolute;top:25px;left:206px;}
+	#FooterNaviSec li {float:left;height:11px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/img_footer_bar.gif) top right no-repeat;}
+	#FooterNaviSec1 li {float:left; height:auto; background:url('http://s.nx.com/s2/game/tales/tw2006/image/global/img_footer_bar1.gif') no-repeat center right; padding-right:7px; margin-right:7px;}
+	#FooterNaviSec1 li:last-child {background:none;}
+	#FooterNaviSec1 li a {font-size:11px; line-height:14px; color:#666;}
+				
+	#FooterCntsSec {position:absolute;top:45px;left:218px;}
+		#FooterCnts01 {width:700px;height:25px;}
+			span.FooterCnts01 {float:left;text-indent:-9000px;width:576px;height:25px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/txt_footer_cnts01.gif) no-repeat;}
+			span.FooterCnts02 {float:left;text-indent:-9000px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/txt_footer_cnts02.gif) no-repeat;}
+			span.FooterCnts02 a {display:block;width:121px;height:10px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/txt_footer_cnts02.gif) no-repeat;}
+		#FooterCnts03 {margin:8px 0 35px;width:674px;height:11px;text-indent:-9000px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/txt_footer_cnts03.gif) no-repeat}
+		
+	#FooterCntsSec1 {position:absolute;top:45px;left:206px;background:url(http://s.nx.com/s2/game/tales/tw2006/image/global/renew/txt_footer_cnts01_3.gif) no-repeat left top;}
+	#FooterCntsSec1-1 {position:absolute;top:45px;left:206px; background:none;}
+	#FooterCntsSec1-1 p {font-size:11px; line-height:14px; color:#666;}
+			#FooterCnts011 {width:700px;height:70px;}
+	
+	#FooterCnts011 p {font-size:11px; line-height:15px; color:#666;}
+	#FooterCnts011 p.nexonInfo1 {padding-bottom:2px;}
+	#FooterCnts011 p.nexonInfo2 {padding-bottom:6px;}
+	#FooterCnts011 p.copyright {font-size:11px; line-height:14px; color:#666; font-family: tahoma;}
+	#FooterCnts011 a {position:relative; left:auto; top:auto; margin-left:8px;}
+
+</style>
+<style type="text/css">
+	#FooterCntsSec1-1.temp{background-image:url(./img/txt_footer_cnts01_3_140425.gif);}
+	</style>
+<div id="FooterSec">
+	<div style="left:85px;" id="FooterLogo">
+		<a target="_blank" href="http://company.nexon.com/"><img alt="넥슨" class="nexon" src="http://s.nx.com/s2/game/tales/tw2006/image/global/renew/logo_f_nexon_140417.gif"></a>
+		
+	</div>
+	<ul id="FooterNaviSec1">
+		<li><a target="_blank" href="http://company.nexon.com/">회사소개</a></li>
+		<li><a target="_blank" href="http://career.nexon.com/">채용안내</a></li>
+		<li><a target="_blank" href="https://member.nexon.com/policy/stipulation.aspx">이용자약관</a></li>
+		<li><a title="게임이용등급안내로 새창 이동" onclick="window.open('../Footer/game_grade.html','', 'toolbar=no, scrollbars=no, width=500, height=440'); return false;" href="http://tales.nexon.com/tales2/Footer/game_grade.html"><strong>게임이용등급안내</strong></a></li>
+		<li><a target="_blank" href="https://member.nexon.com/policy/privacy.aspx"><strong>개인정보취급방침</strong></a></li>
+		<li><a target="_blank" href="https://member.nexon.com/policy/youthprotection.aspx">청소년보호정책</a></li>
+		<li><a title="운영정책 새창 이동" onclick="window.open('../Footer/operation_rule_talesweaver.html','', 'toolbar=no, scrollbars=no, width=600, height=600'); return false;" href="http://tales.nexon.com/tales2/Footer/operation_rule_talesweaver.html">운영정책</a></li>
+		<li><a target="_blank" href="http://pcbang.nexon.com">넥슨PC방</a></li>
+		<li><a href="Gnx.aspx?URL=Customer/Sitemap">사이트맵</a></li>
+	</ul>
+
+	<div id="FooterCntsSec1-1">
+		<div id="FooterCnts011">
+			<p class="nexonInfo1">(주) 넥슨코리아 대표이사 박지원   주소:경기도 성남시 분당구 판교로 256번길 7   전화:1588-7701   팩스:0502-258-8322</p>
+			<p class="nexonInfo2">이메일:contact-us@nexon.co.kr   사업자 등록번호:220-87-17483호   통신판매업 신고번호:제 2013-경기성남-1659호<a target="_blank" href="http://ftc.go.kr/info/bizinfo/communicationList.jsp " class="bizInfo"><strong><u>사업자정보확인</u></strong></a></p>
+			<p class="copyright">&copy; 2002 NEXON Korea Corporation. All Right Reserved.</p>
+			<!--span class="FooterCnts04">nexoncontact@nexon.co.kr</span-->
+
+		</div>
+	</div>
+</div>
+<!-- GoogleLog Section ST -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35029077-1']);
+  _gaq.push(['_setDomainName', 'nexon.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- GoogleLog Section END -->	
+	<script type="text/javascript">
+		(function(doc, id) {
+			var js, head = doc.getElementsByTagName("head")[0];
+			if (!doc.getElementById(id)) {
+				js = doc.createElement("script");
+				js.id = id;
+				js.type = "text/javascript";
+				js.charset = "utf-8";
+				js.src = "//js.nx.com/s1/p2/plugin.min.js";
+				head.appendChild(js);
+			}
+		})(document, "nexon_ps_plugin");
+	</script>
+	<!-- Footer Section END -->
+</div>
+<!-- Click Data Check ==> Start -->
+
+<script type="text/javascript">
+var dtNow = new Date();
+// Date.getMonth는 현재 월 -1 값을 리턴한다.(6월 -> 5)
+if ( dtNow.getMonth() == 8 && dtNow.getDate() >= 23 && dtNow.getDate() < 26 && dtNow.getHours() >= 0 && dtNow.getHours() < 24 )
+	var addClickPatternWarrock = new addClickPattern("tales","center",1042,"white");
+
+function	getClientWidth()	{
+	return document.clientWidth ? document.clientWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth;
+}
+function	addClickPattern(name, align, wrapperWidth, lalyerColor)	{
+	var x;
+	var y;
+	this.name = name;
+	this.align = align;
+	this.wrapperWidth = wrapperWidth;
+	this.lalyerColor = lalyerColor;
+
+	$("body").bind("mousedown", function(event){
+		if (event.which == 1)	{
+			if (align=="left")	x = event.pageX;
+			else if (align=="center")	{
+				if (getClientWidth() <= wrapperWidth)	x = event.pageX;
+				else if (getClientWidth() > wrapperWidth)	x = event.pageX - parseInt((getClientWidth() - wrapperWidth) / 2);
+			}
+			y = event.pageY;
+			
+			// 저장해야할 정보들을 가진 변수 (클릭할 때 마다)
+			/* x, y */
+			if ( x >= 0 && x <= wrapperWidth )
+			{
+				//alert( x + "/" + y );
+				$.ajax({
+			    url: './clickdata.aspx',
+			    data: ({ n4Point_X: x, n4Point_Y: y, rd: Math.random() }),
+			    success: function( data )
+			    {},
+			    error: function( xhr, status, exception )
+			    {}
+			    });				
+			}
+		}
+	});
+}
+
+//var viewClickPatternTales = new viewClickPattern("tales","center",1042,"white");
+function viewClickPattern(name, align, wrapperWidth, lalyerColor)	{
+	this.name = name;
+	this.align = align;
+	this.wrapperWidth = wrapperWidth;
+	this.lalyerColor = lalyerColor;
+
+	if (align=="left")	$("body").append("<div id='"+name+"ClickPattern' style='position:absolute;z-index:9999999;top:0px;width:"+wrapperWidth+"px;height:"+$(document).height()+"px;left:0;'></div>");
+	else if (align=="center")	$("body").append("<div id='"+name+"ClickPattern' style='position:absolute;z-index:9999999;top:0px;width:"+wrapperWidth+"px;height:"+$(document).height()+"px;left:50%;margin-left:-"+wrapperWidth/2+"px;'></div>");
+	$("#"+name+"ClickPattern").append("<div style='position:absolute;left:0px;top:0px;width:"+wrapperWidth+"px;height:"+$(document).height()+"px;background-color:"+lalyerColor+";filter:alpha(opacity=70);-moz-opacity:.70;-khtml-opacity: .70;opacity:.70;'></div>");
+
+	// 반복 패턴 (left : X, top : Y 숫자만 바뀜)
+	
+}
+</script>
+<!-- Click Data Check <== End --></form>	
+		<FORM name='formSub' method='post' id='formSub'></FORM>
+		<div id='divNxConn3'></div>
+		
+		<!-- 넥슨보안 : ST -->
+		<script type="text/javascript" language="javascript" src="../../JS/common/NxAOS.js"></script>	
+		<!-- 넥슨보안 : END -->
+			
+		<script type="text/javascript" language="javascript">
+			EVM.raiseEvent( EVM.k_nEventType_onPageEnd, null );
+			EVM.raiseEvent( EVM.k_nEventType_NotifyDetach, null );
+			EVM.raiseEvent( EVM.k_nEventType_onLoginReplyOK, null );
+			EVM.replaceEventHandler();
+		</script>	
+		
+		<script type="text/javascript" src="http://js.nx.com/s1/global/ngb_bodyend.js"></script>	
+
+	<!-- 이벤트 모달 팝업 -->
+		<div id="modal" style="display:none;position:absolute;left:0;top:0;width:100%;height:100%;z-index:99999990;">
+			<div class="modalCont" style="position:relative;top:796px;left:50%;margin-left:-210px;width:650px;height:2121px;z-index:99999990;">
+				<a href="javascript:;" class="popModalClose" style="position:absolute;left:574px;top:0;"><img src="http://s.nx.com/s2/game/tales/tw2006/image/event/140828/bell_close.png" alt="close" /></a>
+				<div class="popCont" stlye="left:0;">
+					<img src="http://s.nx.com/s2/game/tales/tw2006/image/event/140828/benya.gif" style ="position:absolute;left:187px;top:227px;" alt="" />
+					<img src="http://s.nx.com/s2/game/tales/tw2006/image/event/140828/anais1.gif" style="position:absolute;left:365px;top:226px;" alt="" />
+					<img src="http://s.nx.com/s2/game/tales/tw2006/image/event/140828/anais2.gif" style="position:absolute;left:105px;top:1886px;" alt="" />
+					<img src="http://s.nx.com/s2/game/tales/tw2006/image/event/140828/issac.gif" style="position:absolute;left:496px;top:1935px;" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$( document ).ready(function() {
+			
+		
+	
+				$('#modal').css('height',0);
+
+				$(window).resize();
+				
+				var high = $('body').height();
+				
+				
+				$('.popModal').click(function() {
+					$('#modal').fadeIn();
+					$('#modal').css('height',high + 30);
+					$('#modal').css('display', 'block');
+				});
+				$('.popModalClose').click(function() {
+					$('#modal').fadeOut();
+					$('#modal').css('height',0);
+					$('#modal').css('display', 'none');
+				})
+			}); 
+			$(window).resize(function(){
+				var high = $('body').height();
+				$('#modal').css('height',high + 30);
+			});
+		</script>
+		<!-- 이벤트 모달 팝업 -->
+
+	</body>		
+</html>
+
+
+			
+		
