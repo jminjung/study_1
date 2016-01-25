@@ -1,0 +1,6729 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta name="robots" content="noindex, nofollow" />
+<meta http-equiv="Content-Type" content="text/html;charset=KSC5601">
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+<title>테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net : 네이버 카페</title>
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1" />
+<link rel="stylesheet" href="/static/css/main/css/mycafe-common-1446461417000-56184.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/mycafe-layout-1450681539000-60089.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/line_sticker-1440407107000-9162.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/mycafe-main-1451886750000-192621.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/widget-1381559346000-14577.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/moz_fix-1393479043000-1394.css" type="text/css">
+
+<link rel="stylesheet" href="/static/css/main/css/map/cafe_map-1409905072000-14564.css" type="text/css">
+
+<style id="cafeCss" type="text/css">
+
+/*sub*/
+body {background-color: #fefeed;background-image: none;background-repeat: repeat;}
+
+#main-area select,#main-area textarea,#main-area .list-search input {
+	background-color: #FEFEED;
+	border: 1px solid #e3e3b5 !important;
+}  /*body backgroundcolor input000*/
+#main-area .border-sub {
+	border-color: #e3e3b5;
+}  /* 333 list-line*/
+#main-area .board-line {
+	background-color: #e3e3b5;
+}  /* 333 list-line*/
+#main-area .board-text {
+	color: #e3e3b5;
+}
+
+#main-area .cafebook-line {
+	background-color: #6d6052;
+}
+
+#main-area .skin-bgcolor {
+	background-color: #fefeed;
+	background-image: none;
+	background-repeat: repeat;
+}
+
+#main-area #sub-tit {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/sub-tit-bg.gif);
+}
+
+#main-area .sub-tit-bottom {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/sub-tit-bg.gif);
+}
+
+#main-area .bg-color {
+	background-color: #f6f6e2;
+}
+
+#main-area .sub-tit-color {
+	color: #6d6052
+}
+
+#main-area .list-tab li.selected {
+	background-color: #fefeed;
+}  /*body backgroundcolor*/
+#main-area .btn span {
+	background-image: url(http://cafeimgs.naver.net/style/s05_01/btn-bg.gif)
+		;
+}
+
+#main-area .btn p {
+	background-image: url(http://cafeimgs.naver.net/style/s05_01/btn-bg.gif)
+		;
+}
+
+#main-area .btn2 span {
+	background-image: url(http://cafeimgs.naver.net/style/s05_01/btn-bg2.gif)
+		;
+}
+
+#main-area .btn2 p {
+	background-image: url(http://cafeimgs.naver.net/style/s05_01/btn-bg2.gif)
+		;
+}
+
+#main-area 
+.btn_wide span{background-image:url(http://cafeimgs.naver.net/style/s05_01/btn_wide.gif)}
+#main-area 
+.btn_wide p{background-image:url(http://cafeimgs.naver.net/style/s05_01/btn_wide.gif)}
+#main-area 
+.btn_scroll{background-image:url(http://cafeimgs.naver.net/style/s05_01/btn_scroll.gif)}
+
+#cafe-footer {
+	border-top-color: #e3e3b5;
+}  /* 333 list-line*/ /*sub*/
+#cafe-body-skin {
+	background-image: none;
+	background-position: 0 0;
+}  /*skin-background*/
+#cafe-icoinfo .tcol-c {
+	color: #333333;
+}  /*222*/
+#required-notice .notice {
+	color: #333333;
+}  /*222*/
+#front-cafe a {
+	color: #333333;
+}  /*222*/
+#group-box-area input {
+	background-color: #fefeed !important;
+}  /*body backgroundcolor*/
+#linked-member .group-list {
+	background-color: #fefeed;
+	border-color: #B4B29B;
+}  /*body backgroundcolor input000 */ /*gnb-menu */
+#gnb-menu a, #gnb-menu .view_mobile, #gnb-menu a.gnb_my .gnb_name {
+	color: #333333;
+}  /*222*/
+#gnb-menu img.tcol-c {
+	background-color: #333333;
+}  /*222*/
+#gnb-menu .up-gnb, #gnb-menu .gnb_my_li.gnb_lyr_opened .gnb_my_namebox {
+	background-image:
+		url(http://cafeimgs.naver.net/style2014/s05_01/btn-up-gnb.png)
+}
+
+#gnb-menu .down-gnb, #gnb-menu .gnb_my_li .gnb_my_namebox {
+	background-image:
+		url(http://cafeimgs.naver.net/style2014/s05_01/btn-down-gnb.png)
+}
+
+#gnb-menu .logout {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/btn-logout.gif)
+}
+
+#gnb-menu .login {
+	background-image:
+		url(http://cafeimgs.naver.net/style2014/s05_01/btn-login.png)
+}
+
+/* Naver GNB Icon */
+#gnb-menu .gnb_service_li a.gnb_service .gnb_icon {
+    background-image:
+    url(http://cafeimgs.naver.net/style2014/s05_01/btn-service-gnb.png);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/style2014/s05_01/btn-service-gnb.png);_background:none;
+}
+
+/* Naver GNB Login Button */
+#gnb-menu .gnb_bg{
+    background-color:#ffffff;
+}
+
+#gnb-menu .gnb_bdr{
+    border-color:#bebebe;
+}
+
+#gnb-menu .gnb_txt{
+    color:#333333;
+}
+
+/*widget sub*/
+#content-area .tcol-c {
+	color: #666666;
+}  /* ccc txt-contents*/
+#content-area .tcol-t {
+	color: #333333;
+}  /*txt-title*/
+#content-area .tcol-p {
+	color: #ff5a00;
+}  /*txt-point*/
+#content-area .group-list li img.tcol-c {
+	background-color: #666666;
+}  /* ccc img_ico*/
+#content-area .group-mlist-line {
+	background-color: #666666;
+}  /* ccc line*/
+#content-area .group-border {
+	border-color: #666666;
+}  /* ccc line*/
+#content-area .box-w {
+	background-color: #f6f6e2;
+}  /*background =reply-bg =banner-border*/
+#content-area .group-tit h4 {
+	padding-top: 0;
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/ico-widget-tit.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}  /*tit*/
+#content-area .group-tit p {
+	padding-top: 0;
+}
+
+#content-area .member-reload {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/btn-reload.gif);
+}
+
+#content-area .member-up {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/btn-up-reload.gif);
+}
+
+#content-area .member-down {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/btn-down-reload.gif);
+}
+
+#content-area .design-input {
+	background-color: #fefeed;
+	border-color: #B4B29B;
+}  /*body backgroundcolor input000*/
+#content-area .widget-search {
+	background-image:
+		url(http://cafeimgs.naver.net/style/s05_01/btn_widget_search.gif);
+}
+
+#ad-banner .linebox {
+	border-color: #f6f6e2;
+}  /*background =reply-bg =banner-border*/
+#cafe-footer .m-tcol-c {
+	color: #333333;
+}  /* 000 txt-contents*/
+#cafe-footer .m-tcol-p {
+	color: #ff4646;
+}  /*txt-point*/
+#main-area .con_link {
+	color: #333333;
+} /* 000 txt-contents*/
+.list-style .srch_tx{padding:6px 0 0 19px;background:url(http://cafeimgs.naver.net/style2014/ic_noti.png) no-repeat 0 5px;color:#666;font-size:13px;font-weight:bold;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/style2014/ic_noti.png);_background:none;letter-spacing:-1px} 
+.list-btn-view{clear:both;height:67px} 
+.list-btn-view .btn_link{float:right;margin-top:12px;padding-right:6px;background:url(http://cafeimgs.naver.net/style2014/ico_arr2.gif) no-repeat 100% 4px;font-size:13px;font-weight:bold;color:#666;letter-spacing:-1px;text-decoration:none} 
+
+
+
+
+
+
+
+
+
+
+#main-area .m-tcol-c {color:#333333;}
+#main-area #tbody td {color:#333333;}
+#main-area #tbody th {color:#333333;}
+#main-area .m-tcol-t {color:#6d6052;}
+#main-area .m-tcol-p {color:#ff4646;}
+#main-area .board-box img.tcol-c {background-color:#333333;}
+#main-area .board-box-line {background-color:#333333;}
+#main-area .board-box-line-dashed {border-color:#333333;}
+#main-area .list-tit {height:29px;background-color:transparent;border-width:0;border-style:solid;border-color:#cccccc;background-image:url(http://cafeimgs.naver.com/style/s05_01/list-tit-bg.gif);margin-right:0;}
+#main-area .list-tit .inbox {width:8px;height:29px;background-image:none;display:none;}
+#main-area .list-tit h3 {margin-top:7px;padding-left:10px;font-size:14px;background-image:none;}
+#main-area .list-tit span {margin-top:7px;margin-right:8px;background-image:url(http://cafeimgs.naver.net/style/s05_01/btn-more.gif);}
+#main-area .ico-list-notice {background-image:url(http://cafeimgs.naver.net/style/s05_01/ico-list-notice.gif);}
+#main-area .ico-list-recomm {background-image:url(http://cafeimgs.naver.net/style/s05_01/ico-list-recomm.gif);}
+#main-area .ico-list-info {background-image:url(http://cafeimgs.naver.net/style/s05_01/ico-list-info.gif);}
+#main-area .ico-list-event {background-image:url(http://cafeimgs.naver.net/style/s05_01/ico-list-event.gif);}
+#main-area .ico-list-faq {background:url(http://cafeimgs.naver.net/style/skin/skin_faq_s05.gif) no-repeat 0 0;}
+#main-area .ico-recomm {background:url(http://cafeimgs.naver.net/style/skin/skin_recomm_s05.gif) no-repeat 0 0;}
+#main-area .ico-solution {background:url(http://cafeimgs.naver.net/style/skin/skin_solution_s05.gif) no-repeat 0 0;}
+#main-area .ico-question-select {background:url(http://cafeimgs.naver.net/style/skin/qa_ico_s05_01.gif) no-repeat 0 0;}
+#main-area .ico-book {background-image:url(http://cafeimgs.naver.net/style/s05_01/ico-m-book.gif);}
+#main-area .kin_activity_area .cnt_answer{background:url(http://cafeimgs.naver.net/style/s05_01/ico_cafekin_answer.png) no-repeat;_background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/style/s05_01/ico_cafekin_answer.png);_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='http://cafeimgs.naver.net/style/s05_01/ico_cafekin_answer.png', sizingmethod='crop')} 
+#main-area .kin_activity_area .cnt_adopt{background:url(http://cafeimgs.naver.net/style/s05_01/ico_cafekin_adopt.png) no-repeat;_background:none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/style/s05_01/ico_cafekin_adopt.png);_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='http://cafeimgs.naver.net/style/s05_01/ico_cafekin_adopt.png', sizingmethod='crop')} 
+
+
+
+
+#cafe-menu .gm-tcol-c {color:#88885a;}
+#cafe-menu .gm-tcol-t {color:#6d6052;}
+#cafe-menu .gm-tcol-p {color:#6d6052;}
+#cafe-menu .box-g-t {height:6px;background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/menu-bg-t.gif);}
+#cafe-menu .box-g-m {padding-top:0;padding-bottom:5px;background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/menu-bg-m.gif);}
+#cafe-menu .box-g-b {height:5px;background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/menu-bg-b.gif);}
+#cafe-menu .cafe-menu-tit {width:171px;height:31px;margin-top:0;margin-bottom:-1px;background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/menu-bg-tit.gif);}
+#cafe-menu .cafe-menu-tit h3 {margin-top:10px;margin-left:12px;}
+#cafe-menu .cafe-menu-tit p {margin-top:8px;margin-right:5px;}#cafe-menu .cafe-menu-tit.frst{background-image:none;}
+#cafe-menu .cafe-menu-tit .up-btn {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-up-menu.gif);}
+#cafe-menu .cafe-menu-tit .down-btn {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-down-menu.gif);}
+#cafe-menu .cafe-menu-space {height:2px;margin-top:0;margin-right:1px;margin-bottom:0;margin-left:1px;border-top-style:solid;border-top-width:1px;border-color:#c1c1a4;}
+#cafe-menu .cafe-menu-list {margin-top:8px;margin-left:12px;margin-right:8px;}
+#cafe-menu .ico-list {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-list.gif);}
+#cafe-menu .ico-attendance {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-attendance.png);}
+#cafe-menu .ico-best {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-best.gif);}
+#cafe-menu .ico-link {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-link.gif);}
+#cafe-menu .ico-memo {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-memo.gif);}
+#cafe-menu .ico-photo {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-photo.gif);}
+#cafe-menu .ico-picture {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-picture.gif);}
+#cafe-menu .ico-tag {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-tag.gif);}
+#cafe-menu .ico-kin {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-kin.gif);}
+#cafe-menu .ico-indent {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-indent.gif);}
+#cafe-menu .ico-simple {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-simple.png);}
+#cafe-menu .ico-map {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-map.png);}
+#group-area .cafe-info-action .border-sub {border-color: #e3e3b5;}
+#group-area .cafe-info-action .gm-tcol-c {color:#6d6052;}
+#group-area .cafe-info-action .gm-tcol-t {color:#6d6052;}
+#group-area .cafe-info-action .gm-tcol-p {color:#ff4646;}
+#group-area .cafe-info-action .box-g {padding:0 0 12px 0;background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/bg_info_action.gif);}
+#group-area .cafe-info-action .info-action-tab li {height:38px;}
+#group-area .cafe-info-action .info-action-tab li a {color:#adad84;}
+#group-area .cafe-info-action .info-action-tab li p {margin:10px 0 0 5px;color:#6d6052;}
+#group-area .cafe-info-action .info-action-tab li.tit-info {width:68px;padding-right:2px;padding-left:0;background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/tab_group.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-info-on {width:68px;padding-right:2px;padding-left:0;background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/tab_group_on.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-action {width:66px;padding-right:3px;padding-left:0;background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/tab_group2.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-action-on {width:66px;padding-right:3px;padding-left:0;background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/tab_group2_on.gif);text-align:center;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark {width:28px;height:36px;padding:2px 2px 0 2px;background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/tab_group3.gif) no-repeat 0 0;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark img {width:27px !important;height:28px !important;margin:0;vertical-align:middle;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-on {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_bookmark_on.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_bookmark_on.png);_background-image:none;}
+#group-area .cafe-info-action .info-action-tab li.tit-bookmark .btn-bookmark-off {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_bookmark_off.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_bookmark_off.png);_background-image:none;}
+#group-area .cafe-info-action .ia-action-data {width:169px;height:50px;border-color:#e3e3b5;border-bottom-style:dashed;}
+#group-area .cafe-info-action .ia-action-data ul {margin:10px 0 0 10px;}
+#group-area .cafe-info-action .ia-action-data .grade {width:66px;padding-right:10px;}
+#group-area .cafe-info-action .ia-info-data {width:169px;border-color:#cdcdb4;border-bottom-style:dashed;}
+#group-area .cafe-info-action .ia-info-data ul {margin:7px 0 1px 10px;}
+#group-area .cafe-info-action .ia-info-data ul .info-view {padding-right:10px;}
+#group-area .cafe-info-action .ia-info-data li .mlink {width:122px;}
+#group-area .cafe-info-action .ia-info-data .cafe-admin .ico-admin {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_admin.gif) no-repeat;}
+#group-area .cafe-info-action .ia-info-data .cafe-admin .ico-stat {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_stat.gif) no-repeat;}
+#group-area .cafe-info-action .ia-info-data2 {width:169px;border-color:#cdcdb4;border-bottom-style:dashed;}
+#group-area .cafe-info-action .ia-info-data2 .ico_lock{background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_lock.gif);}
+#group-area .cafe-info-action .ia-info-data2 .level-info {width:84px;}
+#group-area .cafe-info-action .ia-info-data2 .mem-cnt-info{width:80px;}
+#group-area .cafe-info-action .ia-info-data2 .mem-cnt-info .ico {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_mem.gif);}
+#group-area .cafe-info-action .ia-info-data3 {width:163px;margin:11px auto 7px;}
+#group-area .cafe-info-action .ia-info-data3 ul {margin:0 8px 0 10px;}
+#group-area .cafe-info-action .ia-info-data3 .ico_bkmk{background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_bkmk.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_bkmk2 {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_bkmk2_20111028.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_mbl {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_mbl.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_vst {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_vst.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_wrt {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_wrt.gif);}
+#group-area .cafe-info-action .ia-info-data3 .ico_cmt {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cnt_cmt.gif);}
+#group-area .cafe-info-action .ia-info-btn {height:27px;margin:0 1px;padding-top:3px;border-top:1px dashed #cdcdb4;}
+#group-area .cafe-info-action .ia-action-link {height:25px;border-style:dashed;}
+#group-area .cafe-info-action .ia-action-link .bar {margin:0 -12px 0 5px;}
+#group-area .cafe-info-action .tab-up {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-up-tab.gif);}
+#group-area .cafe-info-action .tab-down {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-down-tab.gif);}
+#group-area .cafe-info-action .tab-upc {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-up-tabc.gif);}
+#group-area .cafe-info-action .tab-downc {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn-down-tabc.gif);}
+#group-area .cafe-info-action .btn-write {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_write.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_write.png);_background-image:none;}
+#group-area .cafe-info-action .btn-join {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_join.png);_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/design/menubox/menubox-275-1/btn_join.png);_background-image:none;}
+#group-area .cafe-info-action .cafe-join-info{position:relative;width:169px;height:26px;margin-bottom:4px;border:1px solid #B4B29B;background:#f6f6e2;}
+#group-area .cafe-info-action .cafe-join-info .tcol-c {color: #666666;}
+#group-area .cafe-info-action .cafe-join-info p {border-color: #BEBEBE;}
+#group-area .cafe-info-action .cafe-join-info .tail {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ly_join_tail.gif);}
+#cafe-menu .ico-market {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-market.gif);}
+#cafe-menu .ico-book {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-book.gif);}
+#cafe-menu .ico-list-metoo {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-list-metoo.png);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src=http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-list-metoo.png);_background:none;}
+#cafe-menu .ico-calendar {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-calendart.gif);}
+#cafe-menu .ico-app {background-image:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico-m-app.gif);}
+#cafe-menu .ico-cafe-kin {background:url(http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cafe_kin.png) no-repeat;_background:none;_filter:progid:dximagetransform.microsoft.alphaimageloader(src='http://cafeimgs.naver.net/design/menubox/menubox-275-1/ico_cafe_kin.png', sizingmethod='crop')}
+
+
+#cafe-footer .cafe-name {display:block;}
+#cafe-footer p {font-size:12px;font-family:dotum !important;}
+#cafe-footer span {font-weight:bold;}
+#cafe-footer .m-tcol-c {font-size:12px;font-family:dotum !important;color:;}
+#cafe-footer .m-tcol-p {font-weight:bold;color:;}
+
+
+
+
+
+
+
+
+
+
+#widget-weather {height:100px;background:none;}
+#widget-weather .weather {top:6px;left:6px;}
+#widget-weather .temperature {width:80px;top:44px;left:87px;color:#f96d2f;font-size:27px;text-align:right;}
+#widget-weather .area {width:80px;top:73px;left:85px;color:#909090;text-align:right;}
+
+
+#special-menu {background-image:url(http://cafeimgs.naver.com/style/s05_01/sepcial-menu-bg.gif);background-color:transparent;border-width:0;border-color:#cccccc;border-style:solid;}
+#special-menu .box-special-menu {height:40px;}
+#special-menu .special-menu {width:910px;overflow:hidden;position:relative;margin-left:10px;}
+#special-menu .special-menu li.default {margin-left:-2px;height:40px;background-image:url(http://cafeimgs.naver.com/style/s05_01/sepcial-menu-line.gif);}
+#special-menu .special-menu li.selected .last {background-position:0;}
+#special-menu .special-menu li.selected p {padding-right:0;margin-left:-2px;background-position:left center;padding-left:5px;margin-right:5px;background-image:url(http://cafeimgs.naver.com/style/s05_01/sepcial-menu-on.gif);height:40px;}
+#special-menu .special-menu li.selected {margin-right:0;background-position:right center;background-color:transparent;margin-left:-2px;background-image:url(http://cafeimgs.naver.com/style/s05_01/sepcial-menu-on.gif);}
+#special-menu .special-menu li.selected:first-child{margin-left:0}
+#special-menu .special-menu li span {display:none;color:#ffffff;margin-top:11px;}
+#special-menu .special-menu .off {margin-top:14px;margin-right:10px;margin-left:11px;color:#ffffff;}
+#special-menu .special-menu .on {padding-top:0;margin-top:14px;margin-right:10px;margin-left:11px;color:#ffffff;}
+
+
+
+
+</style>
+
+
+
+<script>
+var g_sUserId = "";
+var g_sGroupId = "false";
+var g_sCafeHome = "http://cafe.naver.com/" + "twdestiny";
+var g_sClubId = "10152947";
+var g_mobileWebLink = "http://m.cafe.naver.com/twdestiny";
+
+var g_sCafeThumbUrl = 'http://cafethumb.naver.net';
+var g_sUpcafeUrl = 'http://up.cafe.naver.com';
+var g_sCafeUrl = "http://cafe.naver.com";
+var g_sCafeImgUrl = 'http://cafeimgs.naver.net';
+var g_sCafeFileUrl = 'http://cafefiles.naver.net';
+var g_sItem2Url = 'http://item2.naver.com';
+var g_sLoginUrl = "http://nid.naver.com";
+var g_sNidHttps = 'https://nid.naver.com';
+var g_sCafeSectionUrl = "http://section.cafe.naver.com";
+var g_sNdrive = "http://ndrive.naver.com";
+var g_sKin = "http://kin.naver.com";
+var g_sLogOutReturnUrl = "https://nid.naver.com/nidlogin.login?mode=form&svctype=40960&id=&url=http://cafe.naver.com/LoginCheck.nhn?m=login";
+var g_sCafeChat = 'https://chat.cafe.naver.com';
+var g_sGfmarketThumbnailDomain = 'http://gfmarket.phinf.naver.net';
+</script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jeagleeye/JEagleEyeClient-1394775889000-16187.js" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo.all-1451886750000-122834.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cssquery-1311297509000-18676.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/jindo/common_util-1311297509000-4535.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/widget-1311297509000-2800.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_common-1447316356000-23985.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_eventutil-1311297509000-2096.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/autosourcing-1398736383000-8747.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/AjaxRequest-1311297509000-16024.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/click/clickcr-1311297509000-6201.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1311297509000-11106.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/TabletHandler-1323912393000-2403.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/skipNavigationWebkit-1364378676000-907.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+    var nsc = "cafe.mycafe"; 
+	var oCL = new Ju.controlLayer(); // Ju.controlLayer() 클래스를 oCL 전역 변수에 할당함	
+	var LH = new LH_create();	
+	
+	window.onload = LH_exec;	
+    var LHajax = new LH_create();
+	
+	if (false==true) {
+		blockMouseRight();
+	}
+	//댓글 팝업 모아보기
+	function commentPopup(articleid) {
+		var url = 'http://cafe.naver.com/twdestiny/' + articleid + '/comment';
+		var feature = "location=no,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes";
+
+		openWindow(url + '?referrerAllArticles=true', 'CommentPopup', 780, 682, feature);
+	}
+//--------------- Mac Safari bug --------------------------
+function controlTagClickEvent(e){
+	if(!!$Agent() && $Agent().macSafari ){
+	 	var controlTagName = ["a"];
+	 	var elTarget = e.element,
+	 		sTargetUrl = null;
+	 	if(elTarget != null ){
+	 		if(elTarget.tagName.toLowerCase() == "a" && elTarget.href+"" != document.location.href+"#"){
+	 			elTarget.target="_top";
+	 		}
+	 		return ;
+	 	}
+	}
+}
+
+(function() {
+	if(!!$Agent() && $Agent().macSafari ){
+		Event.register(window, "load", function() {
+			if($('main-area') != null){
+				Event.register($('main-area'), 'click', this.controlTagClickEvent.bindForEvent(this));
+			}
+		});
+	}
+})();
+//--------------- Mac Safari bug End --------------------------
+</script>
+
+
+<meta name="decorator" content="mycafe_main" />
+<meta http-equiv="Content-Type" content="text/html;charset=euc-kr">
+<script type="text/javascript" src="/static/js/mycafe/main/layout/KeywordHighlightOption-1437736422000-2154.js" charset="utf-8"></script>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+</script>
+
+
+<script type="text/javascript">
+	LH.add("parentResizeIframe('cafe_main')");
+</script>
+
+
+
+</head>
+<body data-skin-color-type="W">
+
+<!-- 가입환영인사 -->
+
+
+
+
+
+<div id="u_skip">
+	<a href="#cafe-menu" onclick="var t=document.getElementById('cafe-menu');t.tabIndex=-1;t.focus();return false;" class="skip">게시판 목록 바로가기</a>
+	<a href="#main-area" onclick="var t=document.getElementById('main-area');t.tabIndex=-1;t.focus();return false;" class="skip">본문 바로가기</a>
+	<a id="u_skipToMobileweb" href="http://m.cafe.naver.com/twdestiny" class="skip">웹 접근성이 좋은 모바일 웹에서 사용하겠습니까?</a>
+</div>
+
+
+
+
+
+
+<h1 class="d-none">테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net</h1>
+
+
+
+
+
+<div id="cafe-body-skin" > 
+	<div id="cafe-body">
+		<!-- gnb 영역-->
+		<div id="naver-gnb">
+			
+				
+
+
+
+
+
+
+
+
+<iframe src="/BGMPlayer.nhn?cafeId=10152947&styleId=34" title="배경음악 플레이어" width="280" height="30" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" allowtransparency="true" style="float:left;"></iframe>
+
+
+			
+				
+
+
+
+<div id="gnb-menu">
+    <p class="naver-h" id="naver-h"><a href=" http://www.naver.com">네이버</a><img src="http://cafeimgs.naver.com/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c"></p>
+    <div class="m-cafe"><a href="http://section.cafe.naver.com">카페</a><a id="au_go" href="#"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt="바로가기" class="btn-cafe down-gnb"></a><img src="http://cafeimgs.naver.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c">
+        
+        <div id="layer-go" style="display:none">
+            <div class="inbox-t"></div>
+            <div class="inbox-b">
+                <ul>
+                    <li><a href="http://section.cafe.naver.com">카페홈</a></li>
+                    
+                    
+                        <li><a href="http://item.naver.com">팩토리</a></li>
+                    
+                    <li><a href="http://note.naver.com">쪽지</a></li>
+                    <li class="myblog"><a href="#" onclick="openPopupQuestion();return false;">신고센터</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="join-cafe" id="au_join-cafe" onclick="clickcr(this, 'gnb.mycafe','','',event)"><a href="#">가입카페</a><a href="#"><img id="joincafeimg" src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt="가입한카페" class="btn-join down-gnb"></a><img src="http://cafeimgs.naver.net/cafe4/ico-blank.gif" width="1" height="10" alt="" class="tcol-c"></div>
+    <!-- GNB 템플릿 적용부 -->
+    <div id="gnb">
+        <script type="text/javascript" src="http://static.gn.naver.net/template/gnb_euckr.nhn?1450924351000" charset="euc-kr"></script>
+
+    </div>
+    <!--//GNB 템플릿 적용부 -->
+    
+    
+    
+        <div id="layer_login" style="display:none;">
+            <p><a href="#" onclick="toLoginPage()">로그인해주세요</a></p>
+        </div>
+    
+    <iframe id="join-cafe-iframe" title="가입카페목록" width="280" frameborder="0" scrolling="no" style="overflow:hidden;display:none;"></iframe>
+</div>
+
+
+<div id="cafeappInstallIntroLayer" style="display:none;position:absolute;border:1px solid #969696;background:#fff;top:25px;left:676px">
+  <div style="width:252px;padding:13px 13px 10px;text-align:center">
+    <p style="font-size:12px;line-height:16px;color:#333"><strong><span style="color:#2cae0c">네이버앱 알림</span>으로 <br>카페앱 설치 경로를 전송했습니다.</strong></p>
+    <p style="padding:4px 0 7px;font-size:11px;line-height:16px;color:#999;letter-spacing:-1px">네이버앱이 최신버전이 아니거나, <br>로그아웃 상태여서 알림을 못 받으셨다면 <br>문자 전송으로 카페앱을 설치하실 수도 있습니다.</p>
+    <div style="padding-top:10px;border-top:1px solid #eeeeec;text-align:center">
+      <a href="#" id="cafeappInstallIntroLayerSmsBtn" style="display:inline-block;overflow:hidden;width:116px;height:23px;margin-right:2px;background:url(http://cafeimgs.naver.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat 0 -34px;line-height:100px;vertical-align:top">카페앱 설치 문자 전송</a>
+      <a href="#" id="cafeappInstallIntroLayerCloseBtn" style="display:inline-block;overflow:hidden;width:35px;height:23px;background:url(http://cafeimgs.naver.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat 0 -60px;line-height:100px;vertical-align:top">확인</a>
+    </div>
+  </div>
+  <a href="#" id="cafeappInstallIntroLayerCloseXBtn" style="display:inline-block;overflow:hidden;position:absolute;top:0;right:0;width:30px;height:30px;background:url(http://cafeimgs.naver.net/img/section/ly_cafeapp_dnld_140331.png) no-repeat -136px -34px;line-height:100px;vertical-align:top">레이어 닫기</a>
+</div>
+<script type="text/javascript">
+var cafeappInstallIntroLayer = {
+    init : function(pUserLoggedIn) {
+        this.cafeappInstallIntroLayer = $('cafeappInstallIntroLayer');
+        this.cafeappInstallIntroLayerSmsBtn = $('cafeappInstallIntroLayerSmsBtn');
+        this.cafeappInstallIntroLayerCloseBtn = $('cafeappInstallIntroLayerCloseBtn');
+        this.cafeappInstallIntroLayerCloseXBtn = $('cafeappInstallIntroLayerCloseXBtn');
+        this.userloggedIn = pUserLoggedIn;
+        this.bindEvent();
+    },
+    bindEvent : function() {
+        Event.register(this.cafeappInstallIntroLayerSmsBtn, 'click', this.popupSms.bindForEvent(this));
+        Event.register(this.cafeappInstallIntroLayerCloseBtn, 'click', this.hideLayer.bindForEvent(this));
+        Event.register(this.cafeappInstallIntroLayerCloseXBtn, 'click', this.hideLayer.bindForEvent(this));
+    },    
+    hideLayer : function(we) {
+        oCL.hide(this.cafeappInstallIntroLayer);
+        we.stop();
+    },    
+    popupSms : function(we) {
+    	openPopupSendURL();
+        oCL.hide(this.cafeappInstallIntroLayer);
+        we.stop();
+    },
+    showLayer : function(event, nTop, nLeft) {
+    	
+    	if(!this.userloggedIn) {
+    		popupLoginPage(document.location);
+    		return;
+    	}
+    	var oAjax = new Ajax('/CafeAppInstallPushAlim.nhn', {method : "POST"});
+    	oCL.show(this.cafeappInstallIntroLayer, event, nTop, nLeft);
+    	if(event != null) {
+    		Event.ready(event).stop();	
+    	}
+    }
+};
+cafeappInstallIntroLayer.init(false);
+</script>
+
+<script type="text/javascript">
+
+var nsc="cafe"; //서비스에서 사용하는 nclick service code.
+var gnb_service="cafe"; //서비스 명 .naver.com 이하 도메인을 기술 ex) sports.news.naver.com => sports.news
+var gnb_logout="http://cafe.naver.com/Logout.nhn?alreadyNaverLogout=true"; //GNB에서 로그아웃 후 redirect 될 URL
+var gnb_template="gnb_euckr"; //사용하고 있는 템플릿 명
+var gnb_brightness=1; // 0: 어두운색 아이콘, 1: 어두운색 아이콘 + 투명도, 2: 밝은색 아이콘 + 투명도, 3: 밝은색 아이콘(pwe 사용권장)
+var gnb_item_hide_option=28 //0(default) : 모두 표시, 1 : 로그인버튼 숨기기, 2 : user 레이어 숨기기, 4: Naver Me 영역 숨기기, 8 : 메일알림영역 숨기기, 16 : 프로필 이미지 숨기기, 32 : 임직원혜택 보이기(숨길 영역의 값을 bit sum 하여 적용)
+//var gnb_more_layer_open_callback = function() {
+//    loginframe.checkAd(1);
+//};
+//var gnb_more_layer_close_callback = function() {
+//    loginframe.checkAd(0);
+//};
+
+</script>
+<script type="text/javascript">
+
+
+function openPopupQuestion() {
+    var url = 'https://help.naver.com/support/reportCenter/home.nhn';
+    window.open(url, "hiddenIframe","scrollbars=no,directories=no,resizable=no,toolbar=no,status=no,menubar=no,location=no,width=1024,height=800,left=0,top=0");
+}
+
+var ToggleCafeGNBLayer = {
+    init : function() {
+        this.elJoin = $("au_join-cafe");
+        this.elListLayer = $("join-cafe-iframe");
+        this.elListLoginLayer = $("layer_login");
+        this.elListButton = this.elJoin.getElementsByTagName("img")[0];
+
+        this.elGo = $("au_go");
+        this.elGoLayer = $("layer-go");
+        this.elGoButton = this.elGo.getElementsByTagName("img")[0];
+
+        this.elCurrent = { layer : null, button : null };
+        this.elGnbCurrent = { layer : null, button : null };
+        this.bEventAttached = false;
+        this.bJindo2 = typeof $Jindo != "undefined" ? true : false;
+        this.bClickGnb = false;
+
+        this.attachEvent(true);
+    },
+    attachEvent : function(bInit) {
+        if(bInit) {
+            var oThis = this;
+            if(this.bJindo2) {
+                $Fn(this.clickArea, this).attach(this.elJoin, "click");
+                $Fn(this.clickArea, this).attach(this.elGo, "click");
+                $Fn(this.hide, this).attach(document, "click");
+                for(var gnFitted = 0; gnFitted < 10; gnFitted++ ) {
+                    if( $('gnb_my_layer') && $('gnb_service_layer') ) {
+                        setTimeout(function(){
+                            $Fn(oThis.toggleGnbLayer, oThis).attach($('gnb_my_layer'), "click");
+                            $Fn(oThis.toggleGnbLayer, oThis).attach($('gnb_service_layer'), "click");
+                        }, 500);
+                        break;
+                    }
+                }
+            } else {
+                Event.register(this.elJoin, "click", this.clickArea.bindForEvent(this));
+                Event.register(this.elGo, "click", this.clickArea.bindForEvent(this));
+                Event.register(document, "click", this.hide.bindForEvent(this));
+                for(var gnFitted = 0; gnFitted < 10; gnFitted++ ) {
+                    if ($('gnb_my_layer') && $('gnb_service_layer')) {
+                        setTimeout(function(){
+                            Event.register($('gnb_my_layer'), "click", oThis.toggleGnbLayer.bindForEvent(oThis));
+                            Event.register($('gnb_service_layer'), "click", oThis.toggleGnbLayer.bindForEvent(oThis));
+                        }, 500);
+                        break;
+                    }
+                }
+            }
+        } else if(!this.bJindo2) {
+            this.elFrame = $("cafe_main");
+
+            if(this.elFrame) {
+                this.elFrameLocation = this.elFrame && this.elFrame.contentWindow && this.elFrame.contentWindow.location.toString() || "";
+                this.frameEvent();
+            }
+            this.bEventAttached = true;
+        }
+    },
+    attachGnbEvent : function() {
+        Event.register($('gnb_my_layer'), "click", this.toggleGnbLayer.bindForEvent(this));
+        Event.register($('gnb_service_layer'), "click", this.toggleGnbLayer.bindForEvent(this));
+    },
+    toggleGnbLayer : function(oEvent) {
+        var el = oEvent && (oEvent.target || oEvent.srcElement);
+
+        if( gnbUserLayer && gnbUserLayer.show ) {
+            this.elGnbCurrent = { layer : gnbUserLayer, button : null };
+            this.bClickGnb = true;
+        } else if ( gnbMoreLayer && gnbMoreLayer.show ) {
+            this.elGnbCurrent = { layer : gnbMoreLayer, button : null };
+            this.bClickGnb = true;
+        } else {
+            this.elGnbCurrent = { layer : null, button : null };
+            this.bClickGnb = false;
+        }
+    },
+    frameEvent : function(bDetach) {
+        var elEditor = this.elFrame && this.elFrame.contentWindow.oEditor;
+
+        Event[bDetach ? "unregister" : "register"](this.elFrame.contentWindow.document, "click",this.hide.bindForEvent(this));
+
+        
+        if(elEditor) {
+            Event[bDetach ? "unregister" : "register"](elEditor.getDocument(), "click",this.hide.bindForEvent(this));
+        }
+    },
+    clickArea : function(oEvent) {
+        var el = oEvent.target || oEvent.srcElement || oEvent.element;
+
+        if(!/(a|img)/i.test(el.tagName)) {
+            return;
+        }
+
+        var bChild = this.bJindo2 ? $Element(el).isChildOf(this.elJoin) : Element.has(this.elJoin, el);
+        this.show(bChild);
+
+        if(this.bJindo2) {
+            oEvent.stop();
+        } else {
+            Event.stop(oEvent);
+
+            if(!this.bEventAttached) {
+                this.attachEvent();
+            }
+        }
+    },
+    show : function(bJoin) {
+        var sType = bJoin ? "List" : "Go";
+        var	elLayer = (true && bJoin) ? this["el" + sType + "LoginLayer"] : this["el"+ sType +"Layer"];
+        var	elButton = this["el"+ sType +"Button"];
+        var bVisible = this.bJindo2 ? $Element(elLayer).visible() : Element.visible(elLayer);
+
+        if (false) {
+            if(bJoin && elLayer.src == "") {
+                elLayer.src = "/MyCafeListGNBView.nhn";
+            }
+        }
+
+        this.hide({ target : elLayer });
+        this.bJindo2 ? $Element(elLayer).toggle() : Element.toggle(elLayer);
+        this.elCurrent = { layer : elLayer, button : elButton };
+
+        elButton.className = bVisible ? elButton.className.replace("up","down") : elButton.className.replace("down","up");
+
+    },
+    hide : function(oEvent) {
+        var el = oEvent && (oEvent.target || oEvent.srcElement);
+
+        if(this.elCurrent.layer && this.elCurrent.layer.style && this.elCurrent.layer != el) {
+            this.elCurrent.layer.style.display = "none";
+            this.elCurrent.button.className = this.elCurrent.button.className.replace("up","down");
+        }
+
+        // 2014년 GNB 레이어 닫기처리
+        if(this.elGnbCurrent.layer && (this.elGnbCurrent.layer.myLayerElement || this.elGnbCurrent.layer.moreLayerElement) && !this.bClickGnb) {
+            gnbAllLayerClose();
+        }
+        this.bClickGnb = false;
+
+        // iframe location이 다른 경우에 클릭 이벤트를 재설정한다.
+        if(this.elFrameLocation && this.elFrameLocation != this.elFrame.contentWindow.location) {
+            this.frameEvent(this);
+            this.elFrameLocation = this.elFrame.contentWindow.location.toString();
+            this.frameEvent();
+        }
+    }
+};
+getGNB();
+ToggleCafeGNBLayer.init();
+
+// 사용하는데가 없는듯
+//	 function resizeIfr(id, nMinHeight) {
+//		var minHeight, doc, h, s;
+//		minHeight = nMinHeight || 10;
+//		var elIframe = $(id);
+//		try{doc = elIframe.contentWindow.document;}catch(me){return;}
+//
+//		if (doc.location.href == 'about:blank') {
+//			elIframe.style.height = minHeight+'px';
+//			return;
+//		}
+//
+//		if (/MSIE/.test(navigator.userAgent)) {
+//			h = doc.body.scrollHeight;
+//		} else {
+//			s = doc.body.appendChild(document.createElement('DIV'));
+//			s.style.clear = 'both';
+//
+//			h = s.offsetTop;
+//			s.parentNode.removeChild(s);
+//		}
+//
+//		if (h < minHeight) h = minHeight;
+//
+//		elIframe.height = h;
+//		elIframe.style.height = h + 'px';
+//		minHeight = doc = h = s = null;
+//	}
+//
+// 사용하는데가 없는듯
+//	function openPopupWindow(url, name, width, height) {
+//		var popup, option = "scrollbars=yes,resizable=yes,toolbar=no,status=no,menubar=no,location=no";
+//
+//		if (width < window.screen.width && height < window.screen.height) {
+//		    var left = window.screen.width  - width;
+//		    var top = Math.ceil((window.screen.height - height) / 2);
+//
+//		    popup = window.open(url, name, option + ",width=" + width + ",height=" + height + ",left=" + left + ",top=" + top);
+//		} else {
+//			popup = window.open(url, name, option + ",width=" + width + ",height=" + height);
+//		}
+//
+//		popup.focus();
+//	}
+
+
+
+</script>
+			
+		</div>
+		
+		<!--  상단 영역 -->	
+		
+			
+			
+
+
+
+
+
+<script type="text/javascript">
+// 탑스킨 사이즈 제한
+function resizeTopSkin(img) {
+    if(!img || img.src.indexOf(".png")>-1 ||img.src.indexOf(".PNG")>-1) return; 
+    if(img.height>300) img.height="300";
+    if(img.width>956) img.width="956";
+}
+
+function updateMoveMenu() {
+	if (typeof oMenuMoveUpdater == "undefined") {
+		return;
+	}
+	
+	oMenuMoveUpdater.update(null);
+}
+</script>
+
+
+	
+	
+	
+	
+  <div id="front-img">
+  	
+  		
+  		
+  		
+  			<div id="front-cafe"  style="cursor:hand;cursor:pointer;background-image:none;width:956px">
+  				<a name="myCafeUrlLink" onclick="updateMoveMenu()" href="/MyCafeIntro.nhn?clubid=10152947" target="cafe_main" >
+  					<img src="http://cafefiles.naver.net/20090824_79/10152947_1251076632379_Oq8dMO_jpg/10152947_logoPixelImage_101712_1.jpg" alt="테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net" onload="resizeTopSkin(this)" >
+  				</a>
+  			</div>
+  		
+  	
+  </div>
+
+			
+		
+			
+			
+
+
+
+
+<div id="special-menu">
+	<div class="box-special-menu">
+		<ul class="special-menu" id="special-menu-item">
+
+  
+	
+			<li class="default" id="special-menu-0"><p>
+		
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.boardtype=L" target="cafe_main" onclick="goMenu(0);targetCleaner(this);" class="off" id="special-menuLink-0">전체글보기</a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu--1"><p>
+		
+			
+			
+			
+			
+			
+			<a href="/BestArticleList.nhn?clubid=10152947&period=week&listtype=commentcount" target="cafe_main" onclick="goMenu(-1);targetCleaner(this);" class="off" id="special-menuLink--1">베스트게시물</a>
+			
+			
+			
+			
+			
+						
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-9"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=9&search.boardtype=L" target="cafe_main" onclick="goMenu(9);targetCleaner(this);" class="off" id="special-menuLink-9" title="테일즈위버 소식">&#53580;&#51068;&#51592;&#50948;&#48260; ..</a>
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-30"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=30&search.boardtype=L" target="cafe_main" onclick="goMenu(30);targetCleaner(this);" class="off" id="special-menuLink-30" title="[팁&amp;정보]">[&#54017;&amp;&#51221;&#48372;]</a>
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-106"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=106&search.boardtype=L" target="cafe_main" onclick="goMenu(106);targetCleaner(this);" class="off" id="special-menuLink-106" title="[챕터공략]">[&#52309;&#53552;&#44277;&#47029;]</a>
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-129"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=129&search.boardtype=L" target="cafe_main" onclick="goMenu(129);targetCleaner(this);" class="off" id="special-menuLink-129" title="[퀘스트&amp;이벤트 공략]">[&#53272;&#49828;&#53944;&amp;&#51060;&#48292;..</a>
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-92"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=92&search.boardtype=L" target="cafe_main" onclick="goMenu(92);targetCleaner(this);" class="off" id="special-menuLink-92" title="[레어제보게시판]">[&#47112;&#50612;&#51228;&#48372;&#44172;..</a>
+			
+		
+			</p><span> </span></li>
+
+  
+	
+			<li class="default" id="special-menu-148"><p>
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+						
+			
+			<a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=148&search.boardtype=L" target="cafe_main" onclick="goMenu(148);targetCleaner(this);" class="off" id="special-menuLink-148" title="[테일즈위버 시뮬]">[&#53580;&#51068;&#51592;&#50948;&#48260; ..</a>
+			
+		
+			</p></li>
+
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+    var spMenu = new Array();   
+    
+    spMenu[0] = {menuid:0, menutype:''};
+    
+    spMenu[1] = {menuid:-1, menutype:''};
+    
+    spMenu[2] = {menuid:9, menutype:'B'};
+    
+    spMenu[3] = {menuid:30, menutype:'B'};
+    
+    spMenu[4] = {menuid:106, menutype:'B'};
+    
+    spMenu[5] = {menuid:129, menutype:'B'};
+    
+    spMenu[6] = {menuid:92, menutype:'B'};
+    
+    spMenu[7] = {menuid:148, menutype:'B'};
+    
+
+    function selectSpecialMenu(menuid)
+    {
+        for (var i=0; i<spMenu.length; i++)
+        {
+            try{
+                $('special-menu-' + spMenu[i].menuid).className='default';
+                $('special-menuLink-' + spMenu[i].menuid).className='off';
+            }catch(e){}
+        }
+        try{
+            $('special-menu-' + menuid).className='selected';       
+            $('special-menuLink-' + menuid).className='on';
+        }catch(e){}
+    }
+    
+	function alertBadMenu() {
+		alert('접근 제한 중인 게시판입니다.');
+	}    
+</script>
+			
+		
+			
+			
+
+
+
+
+
+<div id="info-search" class=blank-space>	
+	
+</div>
+			
+						
+		<!-- content-area -->
+		<div id="content-area">
+			<!-- group-area -->
+			<div id="group-area" class="fl">
+			
+				<!--  메뉴 영역 -->
+				
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/click/clickcr-1311297509000-6201.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/favorite/favorite_cafe-1316607657000-1385.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lcslog-1311297509000-11106.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/Tablet-1399976399000-4233.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/tablet/TabletHandler-1323912393000-2403.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+var nsc = "cafe.mycafe";
+//]]>
+</script>
+
+
+<div class="cafe-info-action" id="cafe-info-action">
+	<!-- 카페정보  -->
+	<div id="cafe-info-data">
+		<ul class="info-action-tab">
+		<li class="tit-info-on" id="ia-info">
+			<p class="gm-tcol-t">카페정보</p>
+		</li>
+		<li class="tit-action" id="ia-action">
+			<p><a href="#" class="_rosRestrict" onclick="showMyAction();clickcr(this, 'cia.my', '', '', event);return false;">나의활동</a></p>
+		</li>
+		<li class="tit-bookmark">
+			
+			
+			
+			<a class="_rosRestrict" href="#" title="즐겨찾는 카페 등록" onClick="setupFavoriteCafe(false, false, 10152947);clickcr(this, 'cia.fav', '', '', event);return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="27" height="28" alt="즐겨찾는 카페 등록" class="btn-bookmark-off" id="favoriteCafeInCafeInfo"></a>
+		</li>
+		</ul>
+		<div class="box-g">
+			<h4 class="d-none">카페정보</h4>
+			<div class="ia-info-data" id="ia-info-data">
+				<ul>
+				<li class="gm-tcol-c">
+					<div class="ball"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="27" height="13" class="ico-manager" alt="매니저"></div>
+					<a href="http://blog.naver.com/leehill" target="_blank" class="id mlink gm-tcol-c" onclick="clickcr(this, 'cia*i.manager', '', '', event);">
+						<div class="ellipsis gm-tcol-c"><div class="ellipsis">베일의검사</div></div>
+					</a>
+				</li>
+				<li class="gm-tcol-c">
+					<div class="thm"><a href="/CafeHistoryView.nhn?clubid=10152947" class="gm-tcol-c" target="cafe_main" onclick="clickcr(this, 'cia*i.history', '', '', event); targetCleaner(this);">since 2004.01.05.</a></div>
+					<div class="info-view"><a href="#" onclick="cafeProfile();clickcr(this, 'cia*i.intro', '', '', event);return false;" class="u gm-tcol-c">카페소개</a></div>
+				</li>
+				
+				</ul>
+			</div>
+			
+			<div class="ia-info-data2">
+				<ul>
+			
+			
+			
+			
+				<li class="level-info border-sub" onClick="javascript:cafeRanking();clickcr(this, 'cia*i.grade', '', '', event);return false;" style="cursor:pointer;">
+					<strong class="d-none">카페등급</strong>
+					<span class="ico_rank rank22"></span><br><a href="#" class="gm-tcol-c"><em>열매2단계</em></a>
+				</li>
+			
+			
+				<li class="mem-cnt-info"  style="cursor:pointer;">
+					<strong class="d-none">카페회원수</strong>
+					
+							
+							<a href="#" onclick="$('hiddenOpenMemberInfoLayer').style.display = '';" class="gm-tcol-c"><span class="ico"></span><br><em>136,339<img src="http://cafeimgs.naver.net/cafe4/cafe/cafeinfo/ico_lock.gif" width="9" height="11" alt="비공개" class="ico_lock2"></em></a>
+						
+						
+					
+					 
+	                <div class="ly_info_dsc" style="font-weight:normal;top:31px;left:5px;display:none;" id="hiddenCafeApplyLayer"> 
+						<div class="cont cont_v1" style="width:60px"> 
+							<p><a href="/ManageJoinApplication.nhn?search.clubid=10152947" >가입대기 <span>0</span></a></p> 
+							<span class="tail" style="left:31px"></span> 
+						</div> 
+					</div>					
+				</li>
+				</ul>
+				 
+                <div class="ly_info_dsc" style="top:31px;left:86px;display:none;" id="hiddenCafeApplyLayer"> 
+					<div class="cont cont_v1" style="width:60px"> 
+						<p><a href="#">가입대기 <span>0</span></a></p> 
+						<span class="tail" style="left:31px"></span> 
+					</div> 
+				</div>
+				
+				<div class="ly_info_dsc" style="top:31px;left:5px;display:none;" id="hiddenCafeDescLayer">
+					<div class="cont">
+						<p>초대를 통해서만<br>가입할 수 있는 비공개카페</p>
+						<span class="tail" style="left:31px"></span>
+					</div>
+				</div>
+				
+                <div class="ly_info_dsc" style="top:33px;right:29px;display:none;" id="hiddenOpenMemberInfoLayer">
+                        <div class="cont cont_v2">
+                                <p>멤버목록 비공개 카페</p>
+                                <span class="tail" style="right:3px"></span>
+                        </div>
+                        <a href="#" onclick="$('hiddenOpenMemberInfoLayer').style.display = 'none';" class="clse">닫기</a>
+                </div>
+			</div>
+			
+			<div class="ia-info-data3" id="cafePopularityLog">
+			</div>
+			<div class="ia-info-btn">
+				<ul class="ia-info-list">
+					<li>
+						<a href="#" onclick="inviteMember();clickcr(this, 'cia*i.invite', '', '', event);return false;" class="gm-tcol-c _rosRestrict">초대</a>
+					</li>
+					<li>
+						<a href="#" onclick="chatting();clickcr(this, 'cia*i.chat', '', '', event);return false;" class="gm-tcol-c _tabletRestrict(채팅)">채팅하기</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="box_g_b"></div>
+		<div class="cafe-write-btn">
+			
+			
+			
+			
+			<a href="#" class="_rosRestrict" onclick="joinCafe();return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="171" height="34" alt="카페 가입하기" class="btn-join"></a>
+			
+			
+		</div>
+	</div>
+
+	<!-- //카페정보 -->
+	<!-- 나의활동 -->
+
+	<div id="member-action-data" style="display:none">
+	
+	</div>
+	<!-- //나의활동 -->
+</div>
+<script type="text/javascript">
+     
+	function writeBoard() {
+		
+		
+		
+		var oMenu = oMenuMoveUpdater.current();
+		var bSupportTablet = Tablet.editing.JustAlert()
+			.check({
+				bAccessTabletPC : false,
+				bReadOnlyStatus : false,
+				bMarketBoard : oMenu.isMarketBoard(),
+				bStaffBoard : oMenu.isStaffBoard(),
+				bHasArticleForm : oMenu.hasArticleForm(),
+				bHasTemplate : oMenu.hasTemplate()
+			});
+		
+		if (!bSupportTablet) {
+			return;
+		}
+		
+		if (oMenu.isStaffBoard()) {
+			$("cafe_main").src = '/StaffArticleWrite.nhn?clubid=10152947&menuid=' + oMenu.nMenuId + '&boardtype=L&m=write';
+		} else {
+			$("cafe_main").src = '/ArticleWrite.nhn?clubid=10152947&menuid=' + oMenu.nMenuId + '&boardtype=L&m=write';
+		} 
+
+		// CAFESUS-28977 PC 웹 적용시 변경 
+		//else if (oMenu.isBoard()) {
+		//	$("cafe_main").src = '/ArticleWrite.nhn?clubid=10152947&menuid=' + oMenu.nMenuId + '&boardtype=L&m=write';
+		//} else {
+		//	$("cafe_main").src = '/ArticleWrite.nhn?clubid=10152947' + '&boardtype=L&m=write';
+		//}
+    }
+	var isFolded = false;
+        
+    // 카페정보 보기 
+	function showCafeInfo() {
+		showPopularityLog();
+		
+		Element.show("cafe-info-data");
+		Element.hide("member-action-data");
+
+		try{
+			var etc = {};
+			etc["sti"] = "cafe_infodata";
+			lcs_do(etc);
+		}catch(e) {}
+	}
+    
+	showPopularityLog();
+	
+    // 카페 인기도 로그 보기
+    function showPopularityLog() {
+		var ajax = new Ajax("/CafePopularityLogAjax.nhn?clubid=10152947&id=" + new Date().getTime(), {
+				suspend : "false",				
+				onLoad : cafePopularityLogShipCB
+		});
+		
+		ajax.request();
+    }
+   
+	// 카페 인기도 로그 조회 콜백
+	function cafePopularityLogShipCB(res) {
+		if (res.status == 200) {
+			$("cafePopularityLog").innerHTML = res.responseText;
+		}
+	}
+	
+	function showAppCafeDescView(onmouseover) {
+		if(onmouseover) {
+			$("cafePopularityLog").className = 'ia-info-data3 ly_on';
+			$("cafePopularityLog_info3").className = 'info3 ly_on';
+			$('appCafeInstallCountDescLayer').style.display = '';
+		} else {
+			$("cafePopularityLog").className = 'ia-info-data3';
+			$("cafePopularityLog_info3").className = 'info3';
+			$('appCafeInstallCountDescLayer').style.display = 'none';
+		}
+	}
+		
+	// 나의 활동 보기
+	function showMyAction()
+	{		
+
+  
+  
+  
+            joinCafe();
+  
+
+	}
+	
+	// 나의 활동정보 조회 콜백
+	function cafeMemberShipCB(res){
+		if(res.status==200)
+		{
+			$("ia-action-data").innerHTML = res.responseText;
+		}
+	}
+	
+	
+	// 카페정보/ 나의 활동영역 접기/펼치기
+	function toggleIA()
+	{
+		if(isFolded)
+		{
+			$("ia-info-up-img").className = $("ia-info-up-img").className.replace("down","up");
+			$("ia-action-down-img").className = $("ia-action-down-img").className.replace("down","up");
+			Element.show("ia-info-data");
+						
+            
+			isFolded = false;
+		} else {		
+			$("ia-info-up-img").className = $("ia-info-up-img").className.replace("up","down");
+			$("ia-action-down-img").className = $("ia-action-down-img").className.replace("up","down");
+			Element.hide("ia-info-data");
+						
+            
+			isFolded = true;
+		}
+	}
+	
+	// 카페소개
+	function cafeProfile()
+	{
+	    moveIframePage('/CafeProfileView.nhn?clubid=10152947');
+	}
+	
+	// 카페 랭킹
+	function cafeRanking()
+	{
+	    moveIframePage('/CafeRankingCafeView.nhn?clubid=10152947');
+	}
+	
+	// 청소년유해매체 카페 공지
+	function teenagerHarmfulCafeNotice() {
+		window.open('http://terms.naver.com/entry.nhn?docId=72599');
+	}
+	
+	// 초대
+	function inviteMember()
+	{
+        
+        
+        
+        
+        
+            joinCafe();
+        
+        		
+	}
+
+	/**
+	 * 채팅홈을 팝업으로 띄운다.
+	 */
+	 function openChatHomePopUp() {
+		var oWnd = window.open('https://chat.cafe.naver.com/ChatHome.nhn?cafeId=10152947', 'CafeChatHome', 'width=570,height=520,toolbar=0,status=0,menubar=0,location=0,scrollbars=yes,resizable=1');
+		if (!oWnd) {
+			alert("선택하신 기능이 차단되었습니다.\n팝업 차단을 해지하신 후에 다시 시도해 주세요.");
+		} else {
+			enda = oWnd;
+			oWnd.focus();
+		}
+	}
+
+	function chatting() {
+		
+        	
+	        
+	        
+	            joinCafe();
+	        
+       	
+	}
+	
+	
+	function accessChat() {
+	    var oSslChecker = new Image();
+	
+		oSslChecker.onload = function() {
+			openChatHomePopUp();
+	    };
+	
+	    oSslChecker.onerror = function() {
+	    	alert("채팅에 필요한 인증서를 지원하지 않는 OS입니다.");
+	    };
+	
+	    oSslChecker.src = "https://secure.cafe.naver.com/secure-images/sslcheck/cafe.gif";
+	}
+	
+	// 회원정보 변경
+	function cafeMemberInfoEdit(event){
+		open_window("/CafeMemberInfo.nhn?clubid=10152947&memberid=&m=view", "popup", 500, 780, "toolbar=0,menubar=0,scrollbars=yes,resizable=yes");	    
+	}
+
+	// 별명 변경 
+	function openProfileEdit(){
+	    window.open("http://admin.blog.naver.com/AdminMain.nhn?blogId=&Redirect=Basicinfo", "profile");
+	}
+
+	// 퍼스나콘 변경 
+	function openItemBag()
+	{
+	    window.open("http://admin.blog.naver.com/AdminMain.nhn?blogId=&Redirect=ItembagP", "profile");
+	}
+	
+	// 카페 멤버보기
+	function showCafeMember()
+	{
+        
+        
+        
+        
+            joinCafe();
+        
+        
+	}
+	
+	function joinCafe() {
+		$("cafeApply_check").submit();
+		return false;
+	}
+
+	// 멤버레벨 정보 팝업
+	function viewMyMemberLevel() {
+		open_window("/MemberLevelView.nhn?m=mylevelview&clubid=10152947", "mylevelview", 740, 498, "");
+	}
+	
+</script>
+		        	        
+		        
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/URLEncodingMap_MS949-1311297509000-97750.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/URLEncoder-1412935093000-2121.js"></script>
+
+<script type="text/javascript">
+var searchParentFrame = null;
+function searchBoard()
+{
+	searchParentFrame = document.frmBoardSearch;
+	
+ 	if (searchParentFrame.query.value.split(/[ \t]/g).join("") == "") 
+    {
+    	alert("검색어를 입력하세요.");
+        searchParentFrame.query.focus();
+        return;
+    }
+
+    //CAFESUS-4750  공통 금칙어 필터/팝업 삭제        
+    //var wordcheckframe = document.createElement("iframe");
+    //wordcheckframe.width = "0";
+    //wordcheckframe.height = "0";
+    //document.body.appendChild(wordcheckframe);
+    //wordcheckframe.src = "/SectionSearchWordCheck.nhn";
+    searchFrmAfter(searchParentFrame);
+    
+    return;
+}
+
+function searchFrmAfter(frm)
+{
+    $("cafe_main").src = "/ArticleSearchList.nhn?search.clubid=10152947&search.searchBy=0&search.query=" + URLEncoder.encode(frm.query.value,"MS949");
+}
+
+</script>
+<div id="cafe-search">
+	<form name="frmBoardSearch" action="" onsubmit="return false;" autocomplete="off">
+	   <input type=text name="query" style="ime-mode:active" id="topLayerQueryInput" onkeydown="if (event.keyCode == 13) {searchBoard();}">
+	   <a href="#" onclick="searchBoard();return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="42" height="21" alt="검색" class="btn-search-green"></a>
+	</form>
+</div>
+
+<form name="pwmForm" method="POST" action="" target="">
+    <input type="hidden" name="ugcTypeName" value=""/>
+    <input type="hidden" name="prohibitWords" value=""/>
+</form>     
+
+
+		        
+				
+
+
+
+
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/menu/Menu-1425899348000-4245.js"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/app/SocialAppUtil-1357102310000-1984.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+	var oMenus = new Cafe.menu.Menus();
+	var oMenuMoveUpdater = new Cafe.menu.MenuMoveUpdater(oMenus);
+	var appUtil = new SocialAppUtil();
+	
+	
+	[0, -10, -1, -2, -3, -15, -20, -4, -5, -25,-7].each(function(nMenuId) {
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : nMenuId,
+			bBadMenu : false,
+			sMenuType : "",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	});
+	
+	
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 179,
+			bBadMenu : false,
+			sMenuType : "E",
+			sBoardType : "E",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 161,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 162,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 165,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 164,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 166,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 163,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 168,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 160,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 39,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 96,
+			bBadMenu : false,
+			sMenuType : "L",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 7,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 34,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 2,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 9,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 12,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 10,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 97,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 50,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 22,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 180,
+			bBadMenu : false,
+			sMenuType : "U",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 100,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 11,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 92,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 152,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 69,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 194,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 30,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 106,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 129,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 151,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 3,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 158,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 52,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 128,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 79,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 113,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 99,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 170,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 102,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 110,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 57,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 138,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 133,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 134,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 139,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 132,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 136,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 137,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 135,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 59,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 78,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 147,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 131,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 140,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 141,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 142,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 143,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 145,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 76,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 98,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 146,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 189,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 182,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "Q",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 188,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 191,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 192,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 190,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 154,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 130,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : true
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 148,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : true
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 67,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 81,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 82,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 88,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 183,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 184,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 185,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 94,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 187,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 186,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 89,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 87,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 86,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 83,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 84,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 85,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 91,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 90,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 105,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 114,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 108,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 116,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 122,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 124,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 169,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 123,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 115,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 80,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 125,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 95,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 126,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 167,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 13,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 73,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 93,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 112,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 19,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 18,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 70,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 71,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "I",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 72,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 58,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 173,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 127,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 171,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 174,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 175,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 177,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 176,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 178,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "T",
+			bHasArticleForm : true,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 172,
+			bBadMenu : false,
+			sMenuType : "S",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 31,
+			bBadMenu : false,
+			sMenuType : "B",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 29,
+			bBadMenu : false,
+			sMenuType : "F",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 23,
+			bBadMenu : false,
+			sMenuType : "L",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 101,
+			bBadMenu : false,
+			sMenuType : "L",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 107,
+			bBadMenu : false,
+			sMenuType : "L",
+			sBoardType : "L",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+		var oMenu = new Cafe.menu.Menu({
+			nMenuId : 153,
+			bBadMenu : false,
+			sMenuType : "L",
+			sBoardType : " ",
+			bHasArticleForm : false,
+			bHasTemplate : false
+		});
+		
+		oMenus.add(oMenu);
+	
+	
+	// 메뉴로 이동
+	// 사실상 아래 메소드는 특정 메뉴를 클릭했을 때, 1. 해당 메뉴를 Bold등의 처리를 하고, 2. 동일한 메뉴(스페셜메뉴, 기본메뉴 등에)가 있을 경우, 같이 Bold 처리함 
+	function goMenu(nMenuId)	{
+	   // 메뉴이동속도를 빠르게 하기 위해 실제 메뉴이동은 별개로 처리
+	   setTimeout(function () {
+		   oMenuMoveUpdater.update(nMenuId);
+	   }, 1);
+	}
+
+	function toggleMenuGroup( gid ) {	
+		if ($(gid).style.display == 'none') {
+			Element.show(gid);
+			$(gid+"btn").className = "up-btn"; 
+		} else {
+			Element.hide(gid);
+			$(gid+"btn").className = "down-btn";
+		}		
+	}
+
+</script>
+<div id="cafe-menu">
+	<div class="box-g-t"></div>
+	<div class="box-g-m">
+		<!-- 즐겨찾는 게시판 그룹 -->
+		
+		<!-- //즐겨찾는 게시판 그룹 -->	
+		<ul class="cafe-menu-list">
+		<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.boardtype=L" target="cafe_main"  onclick="goMenu('0');clickcr(this, 'mnu.all','','',event);targetCleaner(this);" class="gm-tcol-c" id="menuLink0">전체글보기</a> 
+		<span class="gm-tcol-c p11" style="padding-right:2px;">(<strong>171,702</strong>)</span></li>
+		
+			
+			
+				
+			
+			
+			
+			
+		
+			
+			
+				
+			
+			
+			
+			
+		
+			
+			
+				
+			
+			
+			
+			
+		
+			
+			
+				
+			
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-book" alt=""><a href="/BookShelf.nhn?clubid=10152947&sortBy=byDate" target="cafe_main" onClick="goMenu('-15');clickcr(this, 'mnu.shelf','','',event);targetCleaner(this);" class="gm-tcol-c" id="menuLink-15">카페북 책꽂이</a></li>
+			
+			
+			
+			
+		
+			
+			
+				
+			
+			
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="11" height="11" class="ico-cafe-kin" alt=""><a href="/KinActivityNewQuestionList.nhn?search.clubid=10152947" target="cafe_main" onClick="goMenu(-25);clickcr(this,'mnu.kact', '', '', event);targetCleaner(this);" class="gm-tcol-c" id="menuLink-25">카페지식활동</a></li>
+			
+			
+			
+		
+			
+			
+				
+			
+			
+			
+			    <li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="10" class="ico-app" alt=""><a href="/SocialAppList.nhn?clubid=10152947" target="cafe_main" onClick="clickcr(this,'mnu.app', '', '', event); goMenu('-5');targetCleaner(this);" class="gm-tcol-c" id="menuLink-5">네이버 게임</a></li>
+			
+			
+		
+			
+			
+				
+			
+			
+			
+			
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-map" alt=""><a href="/CafeMapView.nhn?clubid=10152947" target="cafe_main" onClick="goMenu(-7);clickcr(this,'mnu.map', '', '', event);targetCleaner(this);" class="gm-tcol-c" id="menuLink-7">우리카페지도</a></li>
+			
+		
+		</ul>
+        
+		<div class="cafe-menu-space"></div><ul class="cafe-menu-list">
+					
+		
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-simple" alt=""><a href="/SimpleArticleList.nhn?search.clubid=10152947&search.menuid=179&search.moreDirection=next" target="cafe_main"  onclick="goMenu('179');clickcr(this, 'mnu.simple','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink179">간편게시판</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group162');return false;" class="gm-tcol-t" title="카페와함께하는이벤트">&#52852;&#54168;&#50752;&#54632;&#44760;&#54616;&#45716;&#51060;&#48292;&#53944;</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg162" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group162btn" ><a href="#" onclick="toggleMenuGroup('group162');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group162" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=165&search.boardtype=L" target="cafe_main"  onclick="goMenu('165');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink165">[종료]추천!넌센스 퀴즈</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=164&search.boardtype=L" target="cafe_main"  onclick="goMenu('164');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink164">[종료]그들을 파해쳐보자</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=166&search.boardtype=I" target="cafe_main"  onclick="goMenu('166');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink166">[종료]팬아트 당첨자</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=163&search.boardtype=I" target="cafe_main"  onclick="goMenu('163');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink163">[종료]팬아트,카툰응모</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=168&search.boardtype=L" target="cafe_main"  onclick="goMenu('168');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink168">이벤트게시판</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group39');return false;" class="gm-tcol-t" title="Fateweaver.Net">Fateweaver.Net</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg39" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group39btn" ><a href="#" onclick="toggleMenuGroup('group39');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group39" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-link" alt=""><a href="http://sgoi.net" target="_blank"  onclick="goMenu('96');clickcr(this, 'mnu.link','','',event);" class="gm-tcol-c " id="menuLink96">　　　with Sgoi.net</a></li>
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group34');return false;" class="gm-tcol-t" title="Fateweaver™ Notice">Fateweaver&trade; Notice</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg34" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group34btn" ><a href="#" onclick="toggleMenuGroup('group34');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group34" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=2&search.boardtype=L" target="cafe_main"  onclick="goMenu('2');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink2">페이트위버 공지</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=9&search.boardtype=L" target="cafe_main"  onclick="goMenu('9');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink9">테일즈위버 소식</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group10');return false;" class="gm-tcol-t" title="Fateweaver™  Introduction">Fateweaver&trade;  Introd..</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg10" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group10btn" ><a href="#" onclick="toggleMenuGroup('group10');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group10" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=97&search.boardtype=L" target="cafe_main"  onclick="goMenu('97');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink97"> Destiny™</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=50&search.boardtype=L" target="cafe_main"  onclick="goMenu('50');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink50"> SGoi.Net</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend10" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/LevelUpApplyList.nhn?search.clubid=10152947" target="cafe_main"  onclick="goMenu('180');clickcr(this, 'mnu.levelup','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink180">[새로운 등업게시판]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=100&search.boardtype=L" target="cafe_main"  onclick="goMenu('100');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink100">[해킹관련]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=11&search.boardtype=L" target="cafe_main"  onclick="goMenu('11');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink11">[자기소개]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=92&search.boardtype=L" target="cafe_main"  onclick="goMenu('92');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink92">[레어제보게시판]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=152&search.boardtype=Q" target="cafe_main"  onclick="goMenu('152');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink152">[질문Q&A답변]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=69&search.boardtype=L" target="cafe_main"  onclick="goMenu('69');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink69">[질문Q&A답변]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=194&search.boardtype=L" target="cafe_main"  onclick="goMenu('194');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink194">초보☆복귀 유저를위한 공략</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=30&search.boardtype=L" target="cafe_main"  onclick="goMenu('30');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink30">[팁&정보]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=106&search.boardtype=L" target="cafe_main"  onclick="goMenu('106');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink106">[챕터공략]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=129&search.boardtype=L" target="cafe_main"  onclick="goMenu('129');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink129">[퀘스트&이벤트 공략]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=3&search.boardtype=L" target="cafe_main"  onclick="goMenu('3');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink3">[자유 게시판]</a><img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' width="10" height="9" class="ico_new" alt="새 게시물" title="새 게시물"><script type="text/javascript">if($("groupnewimg")){Element.show("groupnewimg");}</script></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=158&search.boardtype=L" target="cafe_main"  onclick="goMenu('158');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink158">[같이 게임해요]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=52&search.boardtype=L" target="cafe_main"  onclick="goMenu('52');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink52">[텔즈자료창고]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=128&search.boardtype=I" target="cafe_main"  onclick="goMenu('128');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink128">[캐릭터 명품관]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=113&search.boardtype=L" target="cafe_main"  onclick="goMenu('113');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink113">[클럽 엠블럼 현황]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=99&search.boardtype=L" target="cafe_main"  onclick="goMenu('99');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink99">[클럽 홍보]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=170&search.boardtype=L" target="cafe_main"  onclick="goMenu('170');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink170">[광고 게시판]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=102&search.boardtype=L" target="cafe_main"  onclick="goMenu('102');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink102">[토론 게시판]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group57');return false;" class="gm-tcol-t" title="[Ep1. 캐릭터 게시판]">[Ep1. &#52880;&#47533;&#53552; &#44172;&#49884;&#54032;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg57" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group57btn" ><a href="#" onclick="toggleMenuGroup('group57');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group57" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=138&search.boardtype=Q" target="cafe_main"  onclick="goMenu('138');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink138">시벨린 우</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=133&search.boardtype=Q" target="cafe_main"  onclick="goMenu('133');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink133">루시안 칼츠</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=134&search.boardtype=Q" target="cafe_main"  onclick="goMenu('134');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink134">이스핀 샤를</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=139&search.boardtype=Q" target="cafe_main"  onclick="goMenu('139');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink139">나야트 레이</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=132&search.boardtype=Q" target="cafe_main"  onclick="goMenu('132');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink132">보리스 진네만</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=136&search.boardtype=Q" target="cafe_main"  onclick="goMenu('136');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink136">티치엘 쥬스피앙</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=137&search.boardtype=Q" target="cafe_main"  onclick="goMenu('137');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink137">밀라 네브라스카</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=135&search.boardtype=Q" target="cafe_main"  onclick="goMenu('135');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink135">막시민 리프크네</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=59&search.boardtype=L" target="cafe_main"  onclick="goMenu('59');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink59">Ep1. 캐릭터 (2009.7.27이전)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=78&search.boardtype=L" target="cafe_main"  onclick="goMenu('78');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink78">Ep1. 재분배 (2009.7.27이전)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group131');return false;" class="gm-tcol-t" title="[Ep2. 캐릭터 게시판]">[Ep2. &#52880;&#47533;&#53552; &#44172;&#49884;&#54032;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg131" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group131btn" ><a href="#" onclick="toggleMenuGroup('group131');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group131" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=140&search.boardtype=Q" target="cafe_main"  onclick="goMenu('140');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink140">조슈아 폰 아르님</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=141&search.boardtype=Q" target="cafe_main"  onclick="goMenu('141');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink141">클로에 다 폰티나</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=142&search.boardtype=Q" target="cafe_main"  onclick="goMenu('142');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink142">란지에 로젠크란츠</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=143&search.boardtype=Q" target="cafe_main"  onclick="goMenu('143');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink143">이자크 듀카스텔</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=145&search.boardtype=Q" target="cafe_main"  onclick="goMenu('145');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink145">아나이스 델 카릴</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=76&search.boardtype=L" target="cafe_main"  onclick="goMenu('76');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink76">Ep2. 캐릭터 (2009.7.27이전)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=98&search.boardtype=L" target="cafe_main"  onclick="goMenu('98');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink98">Ep2. 재분배  (2009.7.27이전)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group189');return false;" class="gm-tcol-t" title="[Ep3. 캐릭터 게시판]">[Ep3. &#52880;&#47533;&#53552; &#44172;&#49884;&#54032;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg189" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group189btn" ><a href="#" onclick="toggleMenuGroup('group189');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group189" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-kin" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=182&search.boardtype=Q" target="cafe_main"  onclick="goMenu('182');clickcr(this, 'mnu.qna','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink182">이솔렛</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=188&search.boardtype=L" target="cafe_main"  onclick="goMenu('188');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink188">벤야</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=191&search.boardtype=L" target="cafe_main"  onclick="goMenu('191');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink191">로아미니</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=192&search.boardtype=L" target="cafe_main"  onclick="goMenu('192');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink192">녹턴 드 뷔엥</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend189" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=154&search.boardtype=L" target="cafe_main"  onclick="goMenu('154');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink154">[테일즈위버 기행]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=130&search.boardtype=L" target="cafe_main"  onclick="goMenu('130');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink130">[내멋대로 육성법]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=148&search.boardtype=L" target="cafe_main"  onclick="goMenu('148');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink148">[테일즈위버 시뮬]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group81');return false;" class="gm-tcol-t" title="[서버별 게시판]">[&#49436;&#48260;&#48324; &#44172;&#49884;&#54032;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg81" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group81btn" ><a href="#" onclick="toggleMenuGroup('group81');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group81" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=82&search.boardtype=L" target="cafe_main"  onclick="goMenu('82');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink82">아노마라드</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=88&search.boardtype=L" target="cafe_main"  onclick="goMenu('88');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink88">하이아칸</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=183&search.boardtype=L" target="cafe_main"  onclick="goMenu('183');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink183">미스트랄(트라&레코&팔슈)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=184&search.boardtype=L" target="cafe_main"  onclick="goMenu('184');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink184">제르나(오를&산스&루그란)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=185&search.boardtype=L" target="cafe_main"  onclick="goMenu('185');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink185">로젠버그(신규)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=94&search.boardtype=L" target="cafe_main"  onclick="goMenu('94');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink94">테스트 서버</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group186');return false;" class="gm-tcol-t" title="[사라진 서버 게시판]">[&#49324;&#46972;&#51652; &#49436;&#48260; &#44172;&#49884;&#54032;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg186" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group186btn" ><a href="#" onclick="toggleMenuGroup('group186');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group186" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=89&search.boardtype=L" target="cafe_main"  onclick="goMenu('89');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink89">팔슈(가나폴리&두르넨사)[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=87&search.boardtype=L" target="cafe_main"  onclick="goMenu('87');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink87">루그란(렘므&트레비조)[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=86&search.boardtype=L" target="cafe_main"  onclick="goMenu('86');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink86">산스루리아[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=83&search.boardtype=L" target="cafe_main"  onclick="goMenu('83');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink83">오를란느[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=84&search.boardtype=L" target="cafe_main"  onclick="goMenu('84');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink84">트라바체스[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=85&search.boardtype=L" target="cafe_main"  onclick="goMenu('85');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink85">레코르다블[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=91&search.boardtype=L" target="cafe_main"  onclick="goMenu('91');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink91">트레비조[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=90&search.boardtype=L" target="cafe_main"  onclick="goMenu('90');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink90">두르넨사[폐쇄]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group114');return false;" class="gm-tcol-t" title="[페이트 작가방]">[&#54168;&#51060;&#53944; &#51089;&#44032;&#48169;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg114" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group114btn" ><a href="#" onclick="toggleMenuGroup('group114');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group114" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=108&search.boardtype=L" target="cafe_main"  onclick="goMenu('108');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink108">나로츠's 캔버스</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=116&search.boardtype=L" target="cafe_main"  onclick="goMenu('116');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink116">낙혈's 캔버스</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=122&search.boardtype=L" target="cafe_main"  onclick="goMenu('122');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink122">명랑숙녀's 캔버스</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=124&search.boardtype=L" target="cafe_main"  onclick="goMenu('124');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink124">나메's 캔버스</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=169&search.boardtype=L" target="cafe_main"  onclick="goMenu('169');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink169">미네트's 캔버스</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend114" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=115&search.boardtype=I" target="cafe_main"  onclick="goMenu('115');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink115">[자작 캔버스]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group125');return false;" class="gm-tcol-t" title="[모바일 테일즈위버]">[&#47784;&#48148;&#51068; &#53580;&#51068;&#51592;&#50948;&#48260;]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg125" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group125btn" ><a href="#" onclick="toggleMenuGroup('group125');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group125" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=95&search.boardtype=L" target="cafe_main"  onclick="goMenu('95');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink95">모바일 테일즈 이스핀</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=126&search.boardtype=L" target="cafe_main"  onclick="goMenu('126');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink126">모바일 테일즈 막시민</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=167&search.boardtype=L" target="cafe_main"  onclick="goMenu('167');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink167">모바일 테일즈 루시안</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						
+						<h3><span class="gm-tcol-t"  title="[Fateweaver™ Board]">[Fateweaver&trade; Board]</span></h3>					
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group13" style="">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=73&search.boardtype=L" target="cafe_main"  onclick="goMenu('73');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink73">[신고 게시판]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=93&search.boardtype=L" target="cafe_main"  onclick="goMenu('93');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink93">[문의&건의]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=112&search.boardtype=L" target="cafe_main"  onclick="goMenu('112');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink112">[페이트 휴게실]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group18');return false;" class="gm-tcol-t" title="[Fateweaver™ Image]">[Fateweaver&trade; Image]</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg18" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group18btn" ><a href="#" onclick="toggleMenuGroup('group18');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group18" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=70&search.boardtype=I" target="cafe_main"  onclick="goMenu('70');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink70">[텔즈 관련 이미지]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-photo" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=71&search.boardtype=I" target="cafe_main"  onclick="goMenu('71');clickcr(this, 'mnu.pic','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink71">[회원 사진]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=72&search.boardtype=L" target="cafe_main"  onclick="goMenu('72');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink72">[일반 이미지]</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+					
+	                          
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						<h3><a href="#" onclick="toggleMenuGroup('group173');return false;" class="gm-tcol-t" title="페이트위버 장터">&#54168;&#51060;&#53944;&#50948;&#48260; &#51109;&#53552;</a> <img src='http://cafeimgs.naver.net/cafe4/ico-new.gif' id="groupnewimg173" width="10" height="9" class="ico_new" style="display:none;" alt="새 게시물" title="새 게시물"></h3>
+						<p class="down-btn" id="group173btn" ><a href="#" onclick="toggleMenuGroup('group173');return false;"><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="13" height="13" alt=""></a></p>
+						
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group173" style="display:none">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=127&search.boardtype=L" target="cafe_main"  onclick="goMenu('127');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink127">테일즈 프리마켓</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=171&search.boardtype=L" target="cafe_main"  onclick="goMenu('171');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink171">본체&넷북&노트북</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=174&search.boardtype=L" target="cafe_main"  onclick="goMenu('174');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink174">cpu&메인보드</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=175&search.boardtype=L" target="cafe_main"  onclick="goMenu('175');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink175">메모리&저장매체(HDD,CD)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=177&search.boardtype=L" target="cafe_main"  onclick="goMenu('177');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink177">비디오카드</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=176&search.boardtype=L" target="cafe_main"  onclick="goMenu('176');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink176">출력장치(모니터&프린터등)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-indent" alt=""><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-market" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=178&search.boardtype=L" target="cafe_main"  onclick="goMenu('178');clickcr(this, 'mnu.sell','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink178">기타장치(키보드,마우스등)</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+					
+	                    </ul>
+						<div id="gend173" class="cafe-menu-space"></div>
+						<ul class="cafe-menu-list">
+					
+					
+	                          
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+				<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-list" alt=""><a href="/ArticleList.nhn?search.clubid=10152947&search.menuid=31&search.boardtype=L" target="cafe_main"  onclick="goMenu('31');clickcr(this, 'mnu.normal','','',event);targetCleaner(this);" class="gm-tcol-c " id="menuLink31"> For Destiny™</a></li>
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+	                
+					</ul>
+					<div class="cafe-menu-tit">
+						
+						
+						
+						<h3><span class="gm-tcol-t"  title="Fateweaver™ Link">Fateweaver&trade; Link</span></h3>					
+						
+																
+					</div>
+					<ul class="cafe-menu-list" id="group29" style="">
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-link" alt=""><a href="http://tales.nexon.com/tales2/page/Gnx.aspx?URL=Home/Index" target="_blank"  onclick="goMenu('23');clickcr(this, 'mnu.link','','',event);" class="gm-tcol-c " id="menuLink23">테일즈위버 공식사이트</a></li>
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-link" alt=""><a href="http://cafe.naver.com/gster" target="_blank"  onclick="goMenu('101');clickcr(this, 'mnu.link','','',event);" class="gm-tcol-c " id="menuLink101">게임개발자&테스터카페</a></li>
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-link" alt=""><a href="http://cafe.naver.com/fateblade" target="_blank"  onclick="goMenu('107');clickcr(this, 'mnu.link','','',event);" class="gm-tcol-c " id="menuLink107">블레이드앤소울팬카페</a></li>
+				
+				
+				
+				
+				
+				
+			
+		
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					<li><img src="http://cafeimgs.naver.net/cafe4/hidden.gif" width="10" height="11" class="ico-link" alt=""><a href="http://cafe.naver.com/fategenesis" target="_blank"  onclick="goMenu('153');clickcr(this, 'mnu.link','','',event);" class="gm-tcol-c " id="menuLink153">창세기전온라인팬카페</a></li>
+				
+				
+				
+				
+				
+				
+			
+		
+		</ul>
+	</div>
+	<div id="menu_restirction_tip" class="appr_rst_ly" style="position:absolute;display:none;">
+		<p>이 게시판은 카페 멤버들의 접근이<br />제한되었습니다.</p>
+	</div>
+	<div class="box-g-b"></div>
+</div>
+<script type="text/javascript">
+<!--
+function exposeToolTip(tagElement) {
+	var elParent = tagElement.parentNode, 
+	      nTop = Element.realPos(elParent).top + elParent.offsetHeight,
+	      nLeft = Element.realPos($("cafe-menu")).left,
+	      elLayer = $("menu_restirction_tip");
+
+	if(elLayer.parentNode != document.body) {
+		document.body.appendChild(elLayer);
+	}
+
+	Element.setCSS(elLayer, { 
+		"top" : nTop + "px",
+		"left" : nLeft + "px",
+		"display" : "block"
+	});
+}
+
+function closeToolTop() {
+	var fktip = document.getElementById("menu_restirction_tip");
+	fktip.style.display = "none";
+}
+// -->
+</script>
+				
+
+
+
+
+<div id="ad-banner">
+<div id="da_170170" name="da_170170"><iframe id="f170170" title="광고영역" name="f170170" src="http://ad.naver.com/adshow?unit=208F&amp;cluburl=twdestiny&amp;subject=tid1-001_tid2-100" width="170" height="170" marginheight="0" marginwidth="0" scrolling="no" frameborder="0" align="center"></iframe></div>
+</div>
+												
+				<!--  좌측 그룹박스 -->			
+				<ul class="com">
+					
+					
+						
+
+
+<li class="box-w">
+	<!-- widget-tag -->
+	<div id="cafe-pop-tag" class="widget-element">
+		<div class="group-tit">
+			<h4 class="tcol-t">카페 인기 태그</h4>
+			<p><a href="/CafeTagCloudList.nhn?search.clubId=10152947&search.sortType=tagCount" target="cafe_main" class="tcol-t" onclick="window.scrollTo(0,0);targetCleaner(this);" >more</a></p>
+		</div>
+		<div id="cafe-pop-tag-list">
+		</div>
+	</div>
+	<!-- widget-tag -->
+</li>
+
+						
+						 
+					
+						
+
+
+<li class="box-ww widget-top">
+<div id="widget-weather"></div>
+</li>
+
+						
+						
+							
+						 
+					
+						
+
+
+<li class="box-w">
+	<div id="neighbor-cafe">
+		<div class="group-tit">
+			<h4><a href="#" onclick="popupNeighborList();return false;" class="tcol-t">동맹카페 보기</a></h4>			
+			
+		</div>
+	</div>
+</li>
+
+<script type="text/javascript">
+function popupNeighborList()
+{
+  
+  
+  
+  suggestJoin();
+  
+  
+}
+function registNeighbor()
+{
+  
+  
+  
+  suggestJoin();
+  
+  
+}
+</script>
+						
+						 
+									
+					
+
+
+
+
+				</ul>				
+			</div>
+			<!-- group-area -->
+			<!-- main-area -->
+			<div id="main-area" class="fr">
+				<input id="gateOpen" type="hidden" value="1" />
+				<input id="searchviewtype" type="hidden" value="title" />
+				
+				
+				
+	      		
+				
+					
+			        
+			        
+					
+						
+						
+							
+							<iframe name="cafe_main" id="cafe_main" src="about:blank" width="773" height="100%" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" allowtransparency="true"></iframe>
+							
+							<script type="text/javascript">
+							$("cafe_main").src = "http://cafe.naver.com/MyCafeIntro.nhn?clubid=10152947";
+							</script>
+						
+								
+				
+							
+			</div>
+			<!-- //main-area -->
+		</div>
+		<!-- //content-area -->
+		
+			
+
+
+ <div id="cafe-footer">
+  <p class="cafe-name m-tcol-c">네이버 카페 <span class="m-tcol-p">테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net</span></p>
+ </div>
+		
+		
+		
+		<div id="hbeanLeverageLayer" style="z-index:101; position:absolute; top:100px; right:10px;"></div>	
+	</div>
+	
+	<a href="#" class="blind" onfocus="var t=document.getElementById('u_skip');t.tabIndex=-1;t.focus();return false" style="visibility:visible">콘텐츠 상단</a>
+</div>
+
+
+
+
+
+
+
+
+<input type="hidden" id="questionct" value="block"/>
+<input type="hidden" id="rankingct" value="block"/>
+<iframe name="cafe_check" id="cafe_check" width="0" height="0" frameborder="0"></iframe>
+<form id="cafeApply_check" action="/CafeApplyCheck.nhn" method="post" target="cafe_check" style="margin:0;padding:0;">
+<input type="hidden" name="clubid" value="10152947"/>
+<input type="hidden" name="email" value=""/>
+<input type="hidden" name="alreadyMemberPopup" value="true"/>
+<input type="hidden" id="redirectwrite" name="redirectwrite" value=""/>
+</form>
+<form name="answerSaveFrm" style="display:none;">
+</form>
+<form name="nicknameSaveFrm">
+<input type="hidden" id="cafeTempApplyNickname" name="cafeTempApplyNickname" value="" />
+</form>
+<script type="text/javascript">
+
+
+
+// cafe_main 프레임의 width는 항상 773으로 고정
+setMinSize(773,-1);
+setMaxSize(773,-1);
+
+// 특정페이지로 이동
+function moveIframePage(url)
+{
+	$("cafe_main").src = url;
+}
+
+
+// 카페가입유도 메시지 
+function suggestJoin()
+{
+	
+
+    var clubname = "테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net";
+    if (confirm('카페멤버만 이용할 수 있는 기능입니다.\n' + clubname +' 카페에 가입하시겠습니까?')){
+		joinCafe();
+    }
+}
+
+
+
+
+
+
+</script>
+
+
+
+<link rel="stylesheet" href="/static/css/main/css/ip_layer_2-1344836695000-2882.css" type="text/css">
+
+
+<script type="text/javascript">
+	function openLoginLayer() {
+		var loginCheckOk = "http://cafe.naver.com/LoginCheck.nhn?m=login";
+		checkFrame.location.replace("https://nid.naver.com/nidlogin.login?mode=form&svctype=40960&id=&url="+loginCheckOk);
+
+		
+		var layerScrollTop = parent.document.getElementsByTagName('HTML')[0].scrollTop;
+        var layerClientHeight = parent.document.getElementsByTagName('HTML')[0].clientHeight;
+        var layerPosition = layerScrollTop + (layerClientHeight * 0.5);
+        document.getElementById("login_layer").style.top = layerPosition + "px";
+        
+		document.getElementById("login_layer_bg").style.display = "";
+		document.getElementById("login_layer").style.display = "";
+    	document.getElementById("login_layer").focus();		
+	}
+
+	function closeLoginLayer() {
+		document.getElementById("login_layer_bg").style.display = "none";
+	    document.getElementById("login_layer").style.display = "none";
+	}
+</script>
+<div id="login_layer_bg" style="z-index:100;display:none;position:absolute;width:100%;height:3800px;top:0px;left:0px;background-color:GRAY;filter:alpha(opacity=20);-moz-opacity:0.2;">
+  <iframe id="login_layer_bg_iframe" frameborder="0" style="position:absolute;top:0px;left:0px;width:100%;height:3800px;background-color:GRAY;filter:alpha(opacity=20);-moz-opacity:0.2;" title="로그인영역"></iframe>
+</div>
+<div id="login_layer" class="layerpopup" style="z-index:1001; width:394px; top:400px; left:35%; display:none;">
+  <div class="shadow1">
+  <div class="shadow1_side">
+		<div class="shadow2">
+        <div class="shadow2_side">
+			<div class="shadow3">
+	        <div class="shadow3_side">
+               
+			<div class="border_type">
+				<div class="logbox_wrap">
+
+					<p class="notice">회원님의 안전한 서비스 이용을 위해 <strong>비밀번호를 확인해 주세요.</strong></p>
+
+	           		<p class="notice02" id="layerd_notice01" style="display:none;">IP가 자주 변경되는 네트워크 환경에서 로그인하는 경우 <br><strong>IP보안을 해제</strong> 후 이용하시기 바랍니다.</p>
+					<p class="notice02">다시 한번 <strong>비밀번호 확인</strong> 하시면 이용중인 화면으로 돌아가며, 작성 중이던<br>내용을 정상적으로 전송 또는 등록하실 수 있습니다.</p>
+	
+					<a href="javascript:closeLoginLayer();" class="closelayer"><img src="http://static.naver.net/ws/btn_close.gif" alt="닫기" width="15" height="14"></a>
+	           		<div class="frame_wrap type03"><iframe id="checkFrame" name="checkFrame" width="350" height="163" frameborder="0"  scrolling="no" marginheight="0" marginwidth="0" title="빈프레임"></iframe></div>
+	
+				</div>
+			</div>
+			
+          	</div>
+			</div>
+        </div>
+		</div>
+  </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+	function makeReturnUrl(iframeUrl) {
+		iframeUrl = iframeUrl.replace('http://cafe.naver.com', "");
+		var returnUrl = "http://cafe.naver.com/twdestiny.cafe?iframe_url=" + URLEncoder.encode(iframeUrl,"MS949");
+		returnUrl = URLEncoder.encode(returnUrl,"MS949");
+		return returnUrl;
+	}
+
+	function openWindow(target) {
+
+		var centerWidth = (window.screen.width - 450) / 2;
+	    var centerHeight = (window.screen.height - 500) / 2;
+
+	    window.open(target, '_blank', 'width=440,height=500' + ',left=' + centerWidth + 
+		        ',top=' + centerHeight + ',status=no,scrollbars=no,resizable=no,menubar=no,toolbar=no,location=no');	    
+	}
+	
+	function openSigningLayer(target) {
+		var frame = document.getElementById('addressAuthFrame');
+			
+		frame.contentWindow.location.href = target;
+	
+		
+		var layerScrollTop = parent.document.getElementsByTagName('HTML')[0].scrollTop;
+		var layerClientHeight = parent.document.getElementsByTagName('HTML')[0].clientHeight;
+		
+		var layerPosition =  layerScrollTop + (layerClientHeight * 0.2);
+                
+        document.getElementById("signing_layer").style.top = layerPosition + "px";
+        
+        document.getElementById("signing_layer_bg").style.display = "";
+		document.getElementById("signing_layer").style.display = "";
+    	document.getElementById("signing_layer").focus();	
+	
+	}
+
+	function closeSigningLayer() {
+		document.getElementById("signing_layer_bg").style.display = "none";
+	    document.getElementById("signing_layer").style.display = "none";
+	}
+</script>
+
+
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/lib/cafe/jindo1/OneToOneChatLauncher-1449653390000-1473.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/static/js/mycafe/javascript/cafe_ui-1401092902000-18304.js"></script>
+
+
+
+
+<script type="text/javascript">
+document.domain = "naver.com";
+
+function notiAlert(frmStr)
+{
+    open_window("", frmStr, 100, 100, "");
+    var frm = eval("document." + frmStr);
+    frm.target = frmStr;
+    try{
+        frm.submit();
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+function visit() {
+
+
+	var ajax = new Ajax("/MyCafeVisit.nhn", {
+		suspend : "true",         
+		method : "POST",
+		params : { "clubid":10152947,"usingCounter":false,"ceremonyCheckNeeded":false },      
+		onLoad : cafeVisitCB
+	});
+	ajax.request();
+
+
+}
+function cafeVisitCB(res) { 
+	if(res.status==200) {
+		try{ 
+	
+			var counter = eval('(' + res.responseText + ')');
+			
+			if(counter == null || counter == 'undefined') {
+				return false;
+			}
+			
+		
+		
+		
+				if(counter.visitEventResult != null && counter.visitEventResult.win == 'true') {
+					open_window('/CafeEventPop.nhn?clubid=10152947&eventtype=2&eventresult='+counter.visitEventResult.condition+'&eventarticle='+counter.visitEventResult.eventArticleid, 'cafe_event_popup', 330, 250);
+				}
+				if(counter.ceremonyPassed == 'true') {
+					open_window("/CafeCeremonyProcess.nhn?clubid=10152947&m=pass","cafe_ceremony_pass", 450, 200);
+				}
+		       
+		
+			if(counter.notiList != null) {
+				for (var i = 0; i < counter.notiList.length; i++) {
+					if (counter.notiList[i].exposeAll == 'true' || counter.notiList[i].exposeCafe == 'true') {			
+						document.notifrm.action = counter.notiList[i].param2;
+						document.notifrm.noticode.value = counter.notiList[i].noticode;
+						document.notifrm.comment.innerText = counter.notiList[i].message;
+						
+						notiAlert('notifrm');
+					}
+				}
+			}
+		}catch(e){
+			JEagleEyeClient.raiseError(e, this, {
+        		message : "response:" + res.responseText}
+        	);
+		}  
+	} 
+} 
+
+LHajax.add("visit()");
+
+
+
+
+Function.prototype.bind = function(){
+    var f = this, a = $A(arguments), object = a.shift();
+    return function(){
+        f.apply(object, a.concat($A(arguments)));
+    }
+};
+
+function callAppView(componentid, appId) {
+    var ajax = new Ajax("/AppCafeViewAjax.nhn?clubid=10152947&appId="+appId, {
+        suspend : "true",
+        onLoad : appViewCallBack.bind(window,componentid,appId)
+    });
+    ajax.request();
+}
+
+
+function appViewCallBack(componentid, appId, res) {
+    $(componentid).innerHTML = '';
+    $(componentid).innerHTML = res.responseText;
+
+    try{
+        parentResizeIframe('cafe_main');
+    }catch(e){}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// 카페인기태그 조회
+function callCafePopTag()
+{
+    var ajax = new Ajax("/CafePopTag.nhn?clubid=10152947", {
+        suspend : "true",
+        onLoad : cafePopTag
+    });
+    ajax.request();
+}
+
+// 카페인기태그 콜백
+function cafePopTag(res)
+{
+    if(res.status==200)
+    {
+        $("cafe-pop-tag-list").innerHTML = res.responseText;
+    }
+}
+LH.add("callCafePopTag()");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function initWeatherWidget()
+{
+    new widget('widget-weather', {
+        setUrl : 'http://cafe.naver.com/ContentWidget.nhn?m=weather&iconid=15&type=1&area=11B10101&'
+    });
+}
+
+LHajax.add("initWeatherWidget()");
+
+
+
+LHajax.add("callMemberNews('visit');");
+LHajax.add("parentResizeIframe('cafe_main')");
+</script>
+
+
+
+<form name="notifrm" method="post" action="">
+    <input type="hidden" name="clubid" value="10152947">
+    <input type="hidden" name="noticode" value="">
+    <textarea name="comment" style="display: none;"></textarea>
+</form>
+<script type="text/javascript">
+	function initAutoAndRight() {
+		// AjaxUI 
+		// 자동출처 기능의 사용여부를 두번째 파라미터에 지정합니다.
+		AutoSourcing.init( 'post_%id%' , true );
+		
+		if (false==true) {
+			blockMouseRight();
+		}
+	}
+	LH.add( "initAutoAndRight()" );
+
+    Ajax.initFlash("/common/flash/ajax.swf");
+    
+    function callAjax() {
+        if( window.document[Ajax._tmpId].requestViaFlash ){LHajax.exec();}
+        else{setTimeout("callAjax()",500);}
+    }
+    setTimeout("callAjax()",500);
+    
+  //댓글 팝업 모아보기
+	function commentPopup(articleid) {
+		var url = 'http://cafe.naver.com/twdestiny/' + articleid + '/comment';
+		var feature = "location=no,status=no,toolbar=no,menubar=no,resizable=yes,scrollbars=yes";
+		openWindow(url + '?referrerAllArticles=true', 'CommentPopup', 780, 682, feature);
+	}
+</script>
+<script type="text/javascript">
+	// CAFESUS-7781 by laziel
+	var goFitter;
+	var gnFitted = 0;
+
+	function fitFrame(){
+		if(gnFitted < 10){ // 0.5초씩 10회
+			parentResizeIframe('cafe_main');
+			goFitter = window.setTimeout('fitFrame()', 500);
+			gnFitted++;
+		} else {
+			stopFitFrame();
+		}
+	}
+
+	function stopFitFrame(){
+		if(goFitter){
+			Event.unregister(window, 'load', fitFrame);
+			window.clearTimeout(goFitter);
+			goFitter = gnFitted = null;
+		}
+	}
+
+	Event.register(window, 'load', fitFrame);
+	Event.register(window, 'unload', stopFitFrame);
+
+	var bTablet = false;
+	var oTabletHandler = new TabletHandler(bTablet);
+
+
+var cafenameTitle = "테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net";
+LH.add(changeTitle(cafenameTitle + " : " +  "네이버 카페"));
+LH.add(initTopLayerQuery());
+</script>
+
+
+
+<script type="text/javascript">
+function showDenyNamelessLayer() {
+	
+	var layerScrollTop = document.getElementsByTagName('HTML')[0].scrollTop;
+    var layerClientHeight = document.getElementsByTagName('HTML')[0].clientHeight;
+    var layerPosition = layerScrollTop + (layerClientHeight * 0.5);
+    document.getElementById("denyNamelessLayer").style.top = layerPosition + "px";
+	document.getElementById("denyNamelessLayer").style.display = "";
+}
+
+function hideDenyNamelessLayer() {
+	document.getElementById("denyNamelessLayer").style.display = "none";
+}
+
+function redirectToCertPage() {
+	toCertPage(encodeURIComponent(document.location.href), encodeURIComponent('http://cafe.naver.com/twdestiny'));
+}
+</script>
+<div id="denyNamelessLayer" class="cafetype_layer2" style="width:356px;top:0px;left:440px;margin:0;display:none;"> 
+	<img src="http://cafeimgs.naver.net/img/realname/ico_layer.gif" width="25" height="24" alt="">
+	<h3><span>테일즈위버 클럽 커뮤니티 카페 - Fateweaver.Net</span> 카페는<br>실명 확인 회원만 가입 받고 있습니다.</h3> 
+	<p class="layer_txt">카페에 가입 하시려면 실명 확인을 해주세요.</p>
+	<div class="btn_box">
+		<a href="#" onclick="hideDenyNamelessLayer(); return false;"><img src="http://cafeimgs.naver.net/img/realname/btn_clse_lay.gif" width="47" height="26" alt="닫기"></a> <a href="#" onclick="redirectToCertPage();"><img src="http://cafeimgs.naver.net/img/realname/btn_cfm_lay.gif" width="105" height="26" alt="실명 확인 하기"></a>
+	</div>
+	<a href="#" onclick="hideDenyNamelessLayer(); return false;" class="btn_close"><img src="http://cafeimgs.naver.net/img/btn_close_layer3.gif" width="19" height="19" alt="닫기"></a> 
+	<iframe frameborder="0" scrolling="no" style="width:400px;" title="빈프레임"></iframe>
+</div>
+</body>
+</html>
