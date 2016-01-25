@@ -1,11 +1,19 @@
 body{font-style:normal; font-variant:normal; font-weight:normal; font-stretch:normal;
 font-size:12px; line-height:normal; font-family:돋움 dotum; }
+ul, li, ol {
+    list-style-type: none;
+}
+ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
 
 img{border:0;}
 
 #conten {border:1px solid lime; margin:0 auto; 
-			width:1000px; height:700px; padding:0; list-style:none;}
-#contens {width:200px; height:700px; float:left;margin:55px 10px;}
+			width:1000px; height:500px; padding:0; list-style:none;}
+
+#contens {width:200px; height:500px; float:left;margin:55px 10px 10px 0; }
 /*중간 부분*/
 #contensi {width:750px; height:280px; float:left; margin:0px; padding:0px;}
 
@@ -14,15 +22,20 @@ img{border:0;}
 .game {margin:0 auto;}
 
 /*로그인 창*/
-#kibod1 {width:200px; height:168px; border:1px solid #d7dbf6; background-color:#fff;
+#kibod1 {width:196px; height:164px; border:1px solid #d7dbf6; background-color:#fff;
 		overflow:hidden; padding:1px; position:relative; }
-.label1 {width:66px; height:11px; margin:8px;}
-.label2 {width:76px; height:11px; margin:8px;}
+#kibod2 {width:183px; height:151px; padding: 13px 0 0 13px; background-color:#f0f1ff;}
+#kibod3 {clear:both; height:24px; padding-top:3px;}
+span.label1 {font-size:11px; font-family:dotum; color:#686868; letter-spacing:-1px;}
+span.label2 {font-size:11px; font-family:Dotum; color:#686868; letter-spacing:-1px; display:inline-block; padding-left:10px;}
 
-#rogin {width:105px; height:21px; margin-top:5px; margin:8px;}
-#roginpass {width:105px; height:21px; margin-top:5px; margin:8px;}
+#ropass {position: relative; width: 170px; height:54px;}
+#rogin {width:105px; height:21px; margin-top:5px; overflow:hidden;}
+#roginpass {width:105px; height:21px; margin-top:5px; overflow:hidden;}
+span.roginbt {float:left; position:absolute; top:-6px; left:107px;}
 
-#idsec {width:50px; height:auto; margin:8px; clear:left;}
+
+#idsec {width:100%; height:auto; margin:8px; clear:left; overflow:hidden;}
 #pssec {float:left; width:50px; height:auto; padding:7px 0 13px;}
 #join {float:left; width:50px; height:auto;}
 #uotp {float:left; width:50px; height:auto;}
@@ -39,40 +52,50 @@ img{border:0;}
 
 
 /*롱소드 샵*/
-#anone {list-style:none; margin:0px; padding:0px; width:94px;
-		height:94px; margin-top:2px; float:left; text-align:center;}
-.anone li {width:94px; float:left;}
-.giftitem li {width:94px; float:right;}
+#rongsod {position:relative; width:198px; height:201px; margin-top:39px; padding:15px 0 0 10px; border:1px solid #dedede;}
+#anone {margin-top:9px; width:194px; height:135px;}
+.anitem {width:84px; padding:0;}
+.anitem li {width:94px; float:left; text-align:center;}
+.giftitem {width:84px; padding:0;}
+.giftitem li {width:94px; float:right; text-align:center;}
 .bobo {position:absolute; right:15px; top:15px;}
 #rong {text-align:center;}
 
+
 /*공지사항*/
 #kong {width:510px; height:243px; float:left;}
-#kong1 {float:left; width:510px; margin-right:25px; margin:20px;}
-#kong2 {width:470px; height:101px; padding:48px 06px 15px; }
-#listkong {list-style:none;}
+#kong1 {float:left; width:510px; margin:20px;}
+#kong2 {width:470px; height:150px; }
+#listkong {list-style:none; margin-left:20px;}
 
 /*보리스 이벤트*/
-#event {width:510px;}
-#event li {float:left; margin-right:10px;}
-#event dl {position:relative; width:153px; height:65px;
-			padding:8px 0 0 90px; border:1px solid #e3e3e3;}
-#event dt img {display:block; padding:4px 0 7px;}
-#event dt a {display: inline-block; width:144px; color:#888;
-				font-family:Dotum; line-height:15px;}
-#evnet dd.boris {width:72px; height:57px; margin:0px; position:absolute; left:8px; top:8px;}
+#event {width:510px;height:93px;}
+#event li {float:left; margin-right:10px; width: 240px;}
+#event dl {position:relative; height:65px; border:1px solid #e3e3e3;}
+/*#evnet dt.boris {width:72px; height:57px; margin:0px; float:left;}*/
+dt.boris {width:72px; height:57px; margin:5px 5px; float:left;}
+#evnet .boris_text {float:right;width: 128px;}
+#event dd img {display:block; padding:4px 0 7px;}
+#event dd a {display: inline-block; width:144px; color:#888; font-family:Dotum; line-height:15px;}
 
 
 /*막시민*/
-#max {float:left; width:210px;}
+#max {float:left; width:210px; padding:15px 30px; }
 #max1 {width:20px; margin-bottom:20px;}
 .mama {list-style:none;}
 
 
+/*맨밑*/
+#footer {clear:both; margin:0 auto; width:980px; position:relative; border-top:1px solid #e2e2e2;}
+#rogo{top:25px; left:26px; position:absolute;}
+#footermenu {position:absolute; top:25px; left:206px; float:left;}
+#footermenu li {float:left; height:auto; padding-right:7px; margin-right:7px;}
 
-
-
-
+#footext {position:absolute; top:45px; left:206px; background:none;}
+#footext1 {width:700px; height:70px;}
+.text11 {font-size:11px; line-height:15px;}
+.text12 {font-size:11px; line-height:15px;}
+.text13 {font-size:11px; line-height:15px;}
 
 
 
